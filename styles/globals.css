@@ -1,8 +1,6 @@
 @tailwind base;
 
-.dropdown:hover .dropdown-menu {
-  display: block;
-}
+.dropdown:hover .dropdown-content {display: block;}
 
 @tailwind components;
 @tailwind utilities;
