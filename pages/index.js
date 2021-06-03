@@ -2,9 +2,7 @@ import React, { useState } from "react";
 export default function IndexPage() {
     const [show, setShow] = useState(null);
     const [services, setServices] = useState(false);
-    const [digitalMar, setDigitalMar] = useState(false);
     const [ecomm, setEcomm] = useState(false);
-    const [tech, setTech] = useState(false);
     return (
       <>
         <div className="bg-gray-200 h-full w-full">
@@ -21,35 +19,25 @@ export default function IndexPage() {
                             <li class="dropdown">
                               <button className="relative font-semibold tracking-normal mx-6">Services</button>
                               <div className="dropdown-content border rounded bg-white w-44 hidden absolute z-1 px-4">
-                                <a href="#" className="block border-b p-2">Link 1</a>
-                                <a href="#" className="block border-b p-2">Link 2</a>
-                                <a href="#" className="block p-2">Link 3</a>
+                                <a href="#" className="block border-b p-2">Android Apps</a>
+                                <a href="#" className="block border-b p-2">Website Development</a>
+                                <a href="#" className="block border-b p-2">Software Development</a>
+                                <a href="#" className="block border-b p-2">ERP</a>
+                                <a href="#" className="block border-b p-2">Automation</a>
+                                <a href="#" className="block p-2">Data Analytics</a>
                               </div>
                             </li>
-                            <li class="dropdown">
-                              <button className="relative font-semibold tracking-normal mx-6">Digital Marketing</button>
-                              <div className="dropdown-content border rounded bg-white w-44 hidden absolute z-1 px-4">
-                                <a href="#" className="block border-b p-2">Link 1</a>
-                                <a href="#" className="block border-b p-2">Link 2</a>
-                                <a href="#" className="block p-2">Link 3</a>
-                              </div>
-                            </li>
+                            <li className="font-semibold tracking-normal mx-6"><a href="#">Digital Marketing</a></li>                            
                             <li class="dropdown">
                               <button className="relative font-semibold tracking-normal mx-6">E-Commerce</button>
                               <div className="dropdown-content border rounded bg-white w-44 hidden absolute z-1 px-4">
-                                <a href="#" className="block border-b p-2">Link 1</a>
-                                <a href="#" className="block border-b p-2">Link 2</a>
-                                <a href="#" className="block p-2">Link 3</a>
+                                <a href="#" className="block border-b p-2">Payment Gagteway Integration</a>
+                                <a href="#" className="block border-b p-2">Logistics Integration</a>
+                                <a href="#" className="block p-2">B2B Wholesale Portal Integration</a>
+                                <a href="#" className="block border-b p-2">E-Commerce Website</a>
                               </div>
                             </li>
-                            <li class="dropdown">
-                              <button className="relative font-semibold tracking-normal mx-6">Technologies</button>
-                              <div className="dropdown-content border rounded bg-white w-44 hidden absolute z-1 px-4">
-                                <a href="#" className="block border-b p-2">Link 1</a>
-                                <a href="#" className="block border-b p-2">Link 2</a>
-                                <a href="#" className="block p-2">Link 3</a>
-                              </div>
-                            </li>
+                            <li className="font-semibold tracking-normal mx-6"><a href="#">Technologies</a></li>
                             <li className="mx-6 tracking-normal font-semibold"><a href="#">Careers</a></li>
                             <li className="mx-6 tracking-normal font-semibold"><a href="#">Contact Us</a></li>
                             <li className="mx-6 tracking-normal font-semibold"><a href="#">Products</a></li>
@@ -120,100 +108,47 @@ export default function IndexPage() {
                                           </li>
                                       </a>
                                       <a className="cursor-pointer">
-                                          <li className="text-indigo-700 pt-8">
-                                              <div className="flex items-center justify-between">
-                                                  <div className="">
-                                                      <p className="text-indigo-700 xl:text-base md:text-xl text-base ml-3">Digital Marketing</p>
-                                                  </div>
-                                                  {digitalMar ? (
-                                                      <div onClick={() => setDigitalMar(!digitalMar)}>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-up" width={12} height={12} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><polyline points="6 15 12 9 18 15" /></svg>
-                                                      </div>
-                                                  ) : (
-                                                      <div onClick={() => setDigitalMar(!digitalMar)}>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-down" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" /><polyline points="6 9 12 15 18 9" /></svg>
-                                                      </div>
-                                                  )}
+                                        <li className="text-indigo-700 pt-8">
+                                          <div className="flex items-center justify-between">
+                                            <a href="#" className="text-indigo-700 xl:text-base md:text-xl text-base ml-3">Digital Marketing</a>
+                                          </div>
+                                        </li>
+                                      </a>
+                                      <li className="text-indigo-700 pt-8">
+                                        <div className="flex items-center justify-between">
+                                          <a href="#" className="text-indigo-700 xl:text-base md:text-xl text-base ml-3">E-Commerce</a>
+                                          {ecomm ? (
+                                              <div onClick={() => setEcomm(!ecomm)}>
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-up" width={12} height={12} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><polyline points="6 15 12 9 18 15" /></svg>                                                             
                                               </div>
-                                              {digitalMar && (
-                                                  <div>
-                                                      <ul className="my-3">
-                                                          <li className="xl:text-base md:text-xl text-base text-indigo-500 hover:text-white py-2 px-6">Best Sellers</li>
-                                                          <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Out of Stock</li>
-                                                          <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">New Products</li>
-                                                      </ul>
-                                                  </div>
-                                              )}
-                                          </li>
-                                      </a>
-                                      <a className="cursor-pointer">
-                                          <li className="text-indigo-700 pt-8">
-                                              <div className="flex items-center justify-between">
-                                                  <div className="">
-                                                      <p className="text-indigo-700 xl:text-base md:text-xl text-base ml-3">E-Commerce</p>
-                                                  </div>
-                                                  {ecomm ? (
-                                                      <div onClick={() => setEcomm(!ecomm)}>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-up" width={12} height={12} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><polyline points="6 15 12 9 18 15" /></svg>                                                             
-                                                      </div>
-                                                  ) : (
-                                                      <div onClick={() => setEcomm(!ecomm)}>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-down" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" /><polyline points="6 9 12 15 18 9" /></svg>
-                                                      </div>
-                                                  )}
+                                          ) : (
+                                              <div onClick={() => setEcomm(!ecomm)}>
+                                                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-down" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" /><polyline points="6 9 12 15 18 9" /></svg>
                                               </div>
-                                              {ecomm && (
-                                                  <div>
-                                                      <ul className="my-3">
-                                                          <li className="xl:text-base md:text-xl text-base text-indigo-500 hover:text-white py-2 px-6">Best Sellers</li>
-                                                          <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Out of Stock</li>
-                                                          <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">New Products</li>
-                                                      </ul>
-                                                  </div>
-                                              )}
-                                          </li>
-                                      </a>
-                                      <a className="cursor-pointer">
-                                          <li className="text-indigo-700 pt-8">
-                                              <div className="flex items-center justify-between">
-                                                  <div className="">
-                                                      <p className="text-indigo-700 xl:text-base md:text-xl text-base ml-3">Technologies</p>
-                                                  </div>
-                                                  {tech ? (
-                                                      <div onClick={() => setTech(!tech)}>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-up" width={12} height={12} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><polyline points="6 15 12 9 18 15" /></svg>                                                              
-                                                      </div>
-                                                  ) : (
-                                                      <div onClick={() => setTech(!tech)}>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-down" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" /><polyline points="6 9 12 15 18 9" /></svg>
-                                                      </div>
-                                                  )}
-                                              </div>
-                                              {tech && (
-                                                  <div>
-                                                      <ul className="my-3">
-                                                          <li className="xl:text-base md:text-xl text-base text-indigo-500 hover:text-white py-2 px-6">Best Sellers</li>
-                                                          <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Out of Stock</li>
-                                                          <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">New Products</li>
-                                                      </ul>
-                                                  </div>
-                                              )}
-                                          </li>
-                                      </a>
-                                      <a className="cursor-pointer">
-                                          <li className="text-gray-800 pt-8">
-                                            <p className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Careers</p>
-                                          </li>
-                                      </a>
-                                      <a className="cursor-pointer">
-                                          <li className="text-gray-800 pt-8">
-                                            <p className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Contact Us</p>
-                                          </li>
-                                      </a> <a className="cursor-pointer">
-                                          <li className="text-gray-800 pt-8">
-                                            <p className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Products</p>
-                                          </li>
-                                      </a>
+                                          )}
+                                        </div>
+                                          {ecomm && (
+                                            <div>
+                                              <ul className="my-3">
+                                                <li className="xl:text-base md:text-xl text-base text-indigo-500 hover:text-white py-2 px-6">Best Sellers</li>
+                                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Out of Stock</li>
+                                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">New Products</li>
+                                              </ul>
+                                            </div>
+                                          )}
+                                      </li>
+                                      <li className="text-indigo-700 pt-8">
+                                        <a href="#" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Technologies</a>
+                                      </li>
+                                      <li className="text-gray-800 pt-8">
+                                        <a href="#" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Careers</a>
+                                      </li>
+                                      <li className="text-gray-800 pt-8">
+                                        <a href="#" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Contact Us</a>
+                                      </li>
+                                      <li className="text-gray-800 pt-8">
+                                        <a href="#" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Products</a>
+                                      </li>
                                   </ul>
                               </div>
                           </div>
