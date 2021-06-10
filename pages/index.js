@@ -163,7 +163,7 @@ export default function IndexPage() {
           {/* About */}
           <div className="container mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8">
             <div className="">
-              <h1 className="font-bold text-5xl">We help you in business growth by creating Apps, Web, Software, ERP and Analytics </h1>
+              <h1 className="font-bold text-5xl leading-snug text-gray-800">We help you in business growth by creating Apps, Web, Software, ERP and Analytics </h1>
               <button className="bg-red-400 mt-10 hover:bg-red-700 text-xl text-white font-bold py-5 px-20 rounded-lg">Start With Us</button>
             </div>
             <div className="justify-self-end">
