@@ -182,13 +182,8 @@ export default function AndroidApps() {
                         <div className="flex flex-col items-center px-6 w-full sm:w-1/2 md:w-1/4">
                             <div className="w-20 h-20 relative ml-6">
                                 <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                                <div className="text-white absolute bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" />
-                                        <rect x={3} y={4} width={18} height={4} rx={2} />
-                                        <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-                                        <line x1={10} y1={12} x2={14} y2={12} />
-                                    </svg>
+                                <div className="text-white bg-white absolute bottom-0 left-0 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                    <svg className="w-12" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title/><path d="M1.3 24l11.3-11.5L24 24zM0 0h12L0 12.5zM13.4 0L0 14v10l12-12L24 0z"/></svg>
                                 </div>
                             </div>
                             <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -198,12 +193,8 @@ export default function AndroidApps() {
                         <div className="flex flex-col items-center px-6 w-full sm:w-1/2 md:w-1/4">
                             <div className="w-20 h-20 relative ml-6">
                                 <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                                <div className="text-white absolute bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" />
-                                        <circle cx={12} cy={12} r={9} />
-                                        <path d="M9 12l2 2l4 -4" />
-                                    </svg>
+                                <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                    <svg height="512px" enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" width="512px" xmlns="http://www.w3.org/2000/svg"><g id="_x31_81-java"><g><path d="M333.283,307.117c8.807-6.02,21.023-11.23,21.023-11.23s-34.768,6.29-69.357,9.165    c-42.315,3.503-87.775,4.221-110.595,1.167c-53.996-7.187,29.647-27.044,29.647-27.044s-32.433-2.154-72.413,17.07    C84.422,319.066,248.383,329.487,333.283,307.117z" fill="#5382A1"/><path d="M256.56,278.277c-17.07-38.362-74.659-72.054,0-130.99C349.727,73.797,301.93,26,301.93,26    c19.316,75.917-67.92,98.917-99.456,146.084C181.001,204.337,212.986,238.927,256.56,278.277z" fill="#F8981D"/><path d="M359.518,119.975c0.09,0-157.403,39.351-82.205,125.958c22.191,25.516-5.84,48.516-5.84,48.516    s56.332-29.108,30.457-65.495C277.762,194.993,259.254,178.103,359.518,119.975z" fill="#F8981D"/><path d="M354.039,362.999c-0.449,1.078-1.797,2.247-1.797,2.336    c115.266-30.277,72.861-106.824,17.787-87.416c-4.852,1.707-7.365,5.66-7.365,5.66s3.053-1.259,9.883-2.696    C400.396,275.044,440.377,318.168,354.039,362.999L354.039,362.999z" fill="#5382A1"/><path d="M396.443,418.971c0,0,13.027,10.692-14.285,19.047c-52.018,15.722-216.339,20.483-261.979,0.63 c-16.441-7.099,14.374-17.072,24.078-19.137c10.061-2.157,15.901-1.799,15.901-1.799c-18.238-12.847-117.963,25.247-50.671,36.119 C292.945,483.657,444.061,440.443,396.443,418.971L396.443,418.971z" fill="#5382A1"/><path d="M195.557,381.776c-70.706,19.766,43.035,60.555,133.055,22.011 c-14.732-5.748-25.334-12.397-25.334-12.397c-40.16,7.637-58.756,8.175-95.233,4.043 C177.948,392.019,195.557,381.776,195.557,381.776L195.557,381.776z" fill="#5382A1"/><path d="M357.092,469.103c-70.705,13.296-157.941,11.771-209.602,3.233c0-0.088,10.602,8.716,65.046,12.22 c82.834,5.302,210.051-2.966,213.016-42.136C425.553,442.42,419.803,457.245,357.092,469.103L357.092,469.103z" fill="#5382A1"/><path d="M317.922,343.144c-53.188,10.243-84.003,9.973-122.904,5.93 c-30.098-3.145-10.422-17.698-10.422-17.698c-77.982,25.874,43.304,55.164,152.281,23.269 C325.289,350.601,317.922,343.144,317.922,343.144z" style={{fill:"#5382A1"}}/></g></g><g id="Layer_1"/></svg>
                                 </div>
                             </div>
                             <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -213,13 +204,9 @@ export default function AndroidApps() {
                         <div className="flex flex-col items-center px-6 w-full sm:w-1/2 md:w-1/4">
                             <div className="w-20 h-20 relative ml-6">
                                 <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                                <div className="text-white absolute bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" />
-                                        <polyline points="7 8 3 12 7 16" />
-                                        <polyline points="17 8 21 12 17 16" />
-                                        <line x1={14} y1={4} x2={10} y2={20} />
-                                    </svg>
+                                <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                    <svg enable-background="new 0 0 600 600" version="1.1" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                    <circle class="st0" cx="299.5" cy="299.6" r="50.2"/><g><path class="st0" d="M299.5,414.6c-70.5,0-132.1-8.3-178.2-24.1c-29.9-10.2-55.3-23.8-73.4-39.3c-19.2-16.4-29.4-34.3-29.4-51.6 c0-33.2,36.4-65.7,97.5-86.9c50-17.4,115.2-27.1,183.4-27.1c67,0,131.3,9.4,181,26.6c29.1,10,53.6,23,71,37.4 c18.9,15.8,28.9,33.1,28.9,50c0,34.5-40.7,69.4-106.3,91.1C427.6,406.1,365.6,414.6,299.5,414.6z M299.5,209.6 c-64.7,0-128.7,9.4-175.5,25.7c-56.2,19.6-81.4,46.4-81.4,64.3c0,18.6,27.1,47.9,86.5,68.2c43.6,14.9,102.6,22.8,170.4,22.8 c63.6,0,122.9-8,167-22.7c61.7-20.5,89.9-49.8,89.9-68.3c0-9.5-7.2-20.7-20.3-31.6c-15.1-12.6-37.1-24.1-63.4-33.2 C425.4,218.6,363.9,209.6,299.5,209.6z"/></g><g><path class="st0" d="M185.6,549.8c-10.2,0-19.2-2.2-26.8-6.6c-28.7-16.6-38.7-64.4-26.6-127.9c9.9-52.1,34.1-113.3,68.2-172.4 c33.5-58,73.7-109,113.4-143.5c23.2-20.2,46.7-35,67.9-42.8c23.1-8.5,43.1-8.5,57.7-0.1c29.9,17.2,39.8,70,25.8,137.6 c-9.9,48-33.5,105.9-66.5,163.2c-35.2,61-73.2,110.2-109.9,142.3c-23.8,20.8-48.3,36-70.7,43.9 C206.4,547.7,195.4,549.8,185.6,549.8z M210.7,248.9l10.4,6c-32.3,56-56.2,116.1-65.4,164.9c-11.1,58.5-0.4,93.7,15,102.6 c3.8,2.2,8.8,3.4,14.9,3.4c19.9,0,51.2-12.6,87.4-44.2c34.7-30.3,71-77.5,104.9-136.2c31.8-55.1,54.4-110.5,63.8-156 c13.1-63.7,1.8-102.7-14.3-112c-8.2-4.7-21.5-4.1-37.5,1.8c-18.5,6.8-39.4,20.1-60.4,38.4c-37.7,32.8-76.2,81.6-108.4,137.4 L210.7,248.9z"/></g><g><path class="st0" d="M413.4,550.1c-27.2,0-61.7-16.4-97.7-47.4c-40.2-34.6-81.1-86.1-115.3-145.2v0c-33.6-58-57.6-118.3-67.7-170 c-5.9-30.2-7-57.9-3.2-80.2c4.2-24.3,14.1-41.6,28.8-50.1c29.8-17.3,80.5,0.5,132.1,46.4c36.6,32.5,75,81.9,108.1,139.1   c35.3,61,59,118.5,68.4,166.3c6.1,31,7.1,59.8,2.8,83.2c-4.6,24.9-15,42.6-30,51.3C432.2,547.9,423.3,550.1,413.4,550.1z M221.2,345.5c32.4,56,72.6,106.7,110.2,139c45.1,38.8,80.9,47.2,96.4,38.2c16.1-9.3,27.9-47.4,15.7-109 c-9-45.2-31.7-100.2-65.7-158.9c-31.9-55.1-68.6-102.4-103.3-133.2C225.9,78.4,186.5,68.7,170.4,78c-8.2,4.7-14.3,16.6-17.2,33.4 c-3.3,19.4-2.3,44.2,3.1,71.5C165.9,232,188.9,289.7,221.2,345.5L221.2,345.5z"/></g></svg>
                                 </div>
                             </div>
                             <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
@@ -229,14 +216,8 @@ export default function AndroidApps() {
                         <div className="flex flex-col items-center px-6 w-full sm:w-1/2 md:w-1/4">
                             <div className="w-20 h-20 relative ml-6">
                                 <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
-                                <div className="text-white absolute bottom-0 left-0 bg-indigo-700 rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                        <path stroke="none" d="M0 0h24v24H0z" />
-                                        <rect x={3} y={4} width={18} height={12} rx={1} />
-                                        <line x1={7} y1={20} x2={17} y2={20} />
-                                        <line x1={9} y1={16} x2={9} y2={20} />
-                                        <line x1={15} y1={16} x2={15} y2={20} />
-                                    </svg>
+                                <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                                    <svg className="w-12" height="480pt" viewBox="-28 0 479 480" width="480pt" xmlns="http://www.w3.org/2000/svg"><path d="m80.5 48v32h24v32h-24v96h24v32h-24v32h336l-70-112 70-112zm0 0" fill="#78b9eb"/><path d="m355.941406 160 67.359375-107.761719c1.496094-2.472656 1.554688-5.5625.148438-8.089843-1.402344-2.53125-4.054688-4.113282-6.949219-4.148438h-336c-4.417969 0-8 3.582031-8 8v24h-32v-72h-16v72h-16c-4.417969 0-8 3.582031-8 8v32c0 4.417969 3.582031 8 8 8h16v80h-16c-4.417969 0-8 3.582031-8 8v32c0 4.417969 3.582031 8 8 8h16v232h16v-232h32v24c0 4.417969 3.582031 8 8 8h336c2.894531-.035156 5.546875-1.617188 6.949219-4.148438 1.40625-2.527343 1.347656-5.617187-.148438-8.089843zm-339.441406-72h80v16h-80zm24 32h32v80h-32zm-24 96h80v16h-80zm72 48v-16h16c4.417969 0 8-3.582031 8-8v-32c0-4.417969-3.582031-8-8-8h-16v-80h16c4.417969 0 8-3.582031 8-8v-32c0-4.417969-3.582031-8-8-8h-16v-16h313.601562l-62.402343 99.761719c-1.601563 2.597656-1.601563 5.878906 0 8.476562l62.402343 99.761719zm0 0" fill="#1a6fb0"/></svg>
                                 </div>
                             </div>
                             <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
