@@ -13,6 +13,13 @@ export default function SoftwareDev() {
                     We create high quality software for your businesses. Customize your software to solve your simple to complex problems.
                     Our Solution includes 
                     </p>
+                    <p className="text-base leading-normal text-gray-600 lg:w-2/3 md:w-10/12 w-full mt-10">
+                    Our Solution includes:<br></br>
+                        Finance : Accounting , Invoiceing , Expenses
+                        Inventory : Inventory, Manufacturing, Purchase
+                        HR : Employee Management, Recuritment , CRM 
+                        Others : Parking Automation, Library Management
+                    </p>
                 </div>
                 <div className="md:w-1/2">
                     <h4 className="text-xl font-semibold mb-12">Our Software Features</h4>
