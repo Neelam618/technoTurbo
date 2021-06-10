@@ -6,6 +6,9 @@ module.exports = {
       borderRadius: {
         '35': '35%'
       },
+      backgroundImage: theme => ({
+        'card-pattern': "url('/img/card-bg.png')",
+       })
     },
   },
   variants: {

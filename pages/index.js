@@ -171,10 +171,14 @@ export default function IndexPage() {
             </div>    
         </div>
         <div className="my-8">
-            <h3 className="font-semibold text-xl text-center mb-10">
+          <h2 className="font-bold text-3xl text-center mb-4">How we can Help you?</h2>
+          <div className="text-center mb-4">
+          Move on Mobile & Web | Data Analysis | End to End Business Auomation
+          </div>
+            <p className="font-semibold text-xl text-center mb-10">
               We create Apps, Software, ERP, analyze your buiness data and do automation to help in ease of
               doing business for B2B and B2C customers.
-            </h3>
+            </p>
             <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 pt-6 gap-32">
               <div className="flex flex-col items-center">
                 <img src="img/automation.svg" alt="" className="bg-green-100 rounded-35 p-5 w-28"/>
@@ -193,7 +197,26 @@ export default function IndexPage() {
                 <div className="text-lg mt-5">We provide solutions to expend on E-Commerce</div>
               </div>
             </div>
-        </div>                             
+        </div>
+        <div className="container mx-auto">
+          {/* <div className="font-bold text-5xl text-center">Services</div> */}
+          {/* <div className="grid grid-flow-col grid-cols-3 gap-24 justify-center">
+            <div className="bg-card-pattern">
+              <h6 className="">Android Apps</h6> */}
+              {/* <img src="img/card-bg.png" className="opacity-90 mx-auto w-72" alt="" /> */}
+            {/* </div>
+            <div className="bg-gray-100">
+              <h6 className="text-xl mb-6">Android Apps</h6>
+              <img src="img/undraw_Mobile_apps.svg" className="w-52" alt="" />
+            </div>
+            <div className="bg-gray-100">
+              <h6 className="text-xl mb-6">Android Apps</h6>
+              <img src="img/undraw_Mobile_apps.svg" className="w-52" alt="" />
+            </div>
+            
+          </div> */}
+        </div>
+
       </>
     );
 }
