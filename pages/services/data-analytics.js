@@ -10,13 +10,13 @@ export default function WebDev() {
                         <h5 className="text-2xl md:text-4xl xl:text-5xl font-bold leading-10 text-gray-800 mb-10">Data Analytics</h5>
                     </div>
                     <div className="text-base leading-normal text-gray-600 lg:w-2/3 md:w-10/12 w-full">
-                    Data visualization : Create insights, reports, and dashboards<br></br>
+                        Data visualization : Create insights, reports, and dashboards<br></br>
                     Embedded analytics : Integrate analytics into your product, portal, or app
                     </div>
-                    
+
                 </div>
             </div>
-            
+
         </div>
     )
 }
