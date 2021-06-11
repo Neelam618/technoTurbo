@@ -162,7 +162,7 @@ export default function IndexPage() {
       </div>
       {/* About */}
       <div className="container px-4 mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8">
-        <div className="mt-12 xl:mt-0">
+        <div className="mt-12 sm:mt-16 xl:mt-0">
           <h1 className="font-bold text-2xl md:text-5xl md:leading-snug text-gray-800 text-center xl:text-left">We help you in business growth by creating Apps, Web, Software, ERP and Analytics </h1>
           <button className="bg-red-400 mt-10 hover:bg-red-700 text-xl text-white font-bold py-5 px-20 rounded-lg block xl:inline mx-auto mt-8">Start With Us</button>
         </div>
@@ -374,7 +374,7 @@ export default function IndexPage() {
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">Email Marketing</p>
           </div>
         </div>
-        <div className="rounded border-gray-300 h-24">
+        <div className="rounded border-gray-300 h-24 my-8">
           <div className="bg-gray-100 mt-4 rounded w-full p-8 flex items-center">
             <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
