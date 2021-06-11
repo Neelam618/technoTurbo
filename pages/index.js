@@ -19,7 +19,9 @@ export default function IndexPage() {
               <ul className="xl:flex hidden items-center h-full">
                 <li className="font-semibold tracking-normal mx-6"><a href="#">About</a></li>
                 <li class="dropdown">
-                  <button className="relative font-semibold tracking-normal mx-6">Services</button>
+                  <button className="relative font-semibold tracking-normal mx-6">Services
+                  <svg className="fill-current h-4 w-4 inline ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                  </button>
                   <div className="dropdown-content border rounded bg-white w-44 hidden absolute z-1 px-4">
                     <a href="#" className="block border-b p-2">Android Apps</a>
                     <a href="#" className="block border-b p-2">Website Development</a>
@@ -30,15 +32,7 @@ export default function IndexPage() {
                   </div>
                 </li>
                 <li className="font-semibold tracking-normal mx-6"><a href="#">Digital Marketing</a></li>
-                <li class="dropdown">
-                  <button className="relative font-semibold tracking-normal mx-6">E-Commerce</button>
-                  <div className="dropdown-content border rounded bg-white w-44 hidden absolute z-1 px-4">
-                    <a href="#" className="block border-b p-2">Payment Gagteway Integration</a>
-                    <a href="#" className="block border-b p-2">Logistics Integration</a>
-                    <a href="#" className="block p-2">B2B Wholesale Portal Integration</a>
-                    <a href="#" className="block border-b p-2">E-Commerce Website</a>
-                  </div>
-                </li>
+                <li className="font-semibold tracking-normal mx-6"><a href="#">E-Commerce</a></li>
                 <li className="font-semibold tracking-normal mx-6"><a href="#">Technologies</a></li>
                 <li className="mx-6 tracking-normal font-semibold"><a href="#">Careers</a></li>
                 <li className="mx-6 tracking-normal font-semibold"><a href="#">Contact Us</a></li>
@@ -149,19 +143,19 @@ export default function IndexPage() {
       {/* About */}
       <div className="container px-4 mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8">
         <div className="mt-12 sm:mt-16 xl:mt-0">
-          <h1 className="font-bold text-2xl md:text-5xl md:leading-snug text-gray-800 text-center xl:text-left">We help you in business growth by creating Apps, Web, Software, ERP and Analytics </h1>
-          <button className="bg-red-400 mt-10 hover:bg-red-700 text-xl text-white font-bold py-5 px-20 rounded-lg block xl:inline mx-auto mt-8">Start With Us</button>
+          <h1 className="font-bold text-2xl md:text-5xl md:leading-snug text-gray-600 text-center xl:text-left">We help you in business growth by creating Apps, Web, Software, ERP and Analytics </h1>
+          <button className="bg-red-400 mt-10 hover:bg-red-500 text-xl text-white font-bold py-5 px-20 rounded-lg block xl:inline mx-auto mt-8 tracking-wider">Start With Us</button>
         </div>
         <div className="justify-self-center xl:justify-self-end">
           <img src="img/Business-Meeting.svg" alt="" style={{ width: 600 }} />
         </div>
       </div>
       <div className="container mx-auto px-4 my-8">
-        <h2 className="font-bold text-3xl text-center mb-4">How we can Help you?</h2>
-        <div className="text-center mb-4">
+        <h2 className="font-bold text-3xl text-gray-800 text-center mb-4 tracking-wide">How we can Help you?</h2>
+        <div className="text-center text-xl text-gray-400 font-semibold mb-4">
           Move on Mobile & Web | Data Analysis | End to End Business Auomation
           </div>
-        <p className="font-semibold text-xl text-center mb-10">
+        <p className="font-semibold text-xl text-center text-gray-700 mb-10">
           We create Apps, Software, ERP, analyze your buiness data and do automation to help in ease of
           doing business for B2B and B2C customers.
             </p>
