@@ -161,16 +161,16 @@ export default function IndexPage() {
         {/* Code block ends */}
       </div>
       {/* About */}
-      <div className="container mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8">
-        <div className="">
-          <h1 className="font-bold text-5xl leading-snug text-gray-800">We help you in business growth by creating Apps, Web, Software, ERP and Analytics </h1>
-          <button className="bg-red-400 mt-10 hover:bg-red-700 text-xl text-white font-bold py-5 px-20 rounded-lg">Start With Us</button>
+      <div className="container px-4 mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8">
+        <div className="mt-12 xl:mt-0">
+          <h1 className="font-bold text-2xl md:text-5xl md:leading-snug text-gray-800 text-center xl:text-left">We help you in business growth by creating Apps, Web, Software, ERP and Analytics </h1>
+          <button className="bg-red-400 mt-10 hover:bg-red-700 text-xl text-white font-bold py-5 px-20 rounded-lg block xl:inline mx-auto mt-8">Start With Us</button>
         </div>
-        <div className="justify-self-end">
+        <div className="justify-self-center xl:justify-self-end">
           <img src="img/Business-Meeting.svg" alt="" style={{ width: 600 }} />
         </div>
       </div>
-      <div className="my-8">
+      <div className="container mx-auto px-4 my-8">
         <h2 className="font-bold text-3xl text-center mb-4">How we can Help you?</h2>
         <div className="text-center mb-4">
           Move on Mobile & Web | Data Analysis | End to End Business Auomation
@@ -179,7 +179,7 @@ export default function IndexPage() {
           We create Apps, Software, ERP, analyze your buiness data and do automation to help in ease of
           doing business for B2B and B2C customers.
             </p>
-        <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 pt-6 gap-32">
+        <div className="mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 pt-6 gap-32">
           <div className="flex flex-col items-center">
             <img src="img/automation.svg" alt="" className="bg-green-100 rounded-35 p-5 w-28" />
             <div className="text-lg mt-5">We Automate businesses</div>
@@ -198,8 +198,8 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
-      <div className="container mx-auto">
-        <h3 className="font-bold text-4xl text-center my-24">Services</h3>
+      <div className="container px-4 mx-auto">
+        <h3 className="text-4xl text-gray-800 font-extrabold mb-10 text-center my-24">Services</h3>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:pb-10">
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Android Apps</h1>
@@ -304,16 +304,20 @@ export default function IndexPage() {
           </a>
         </div>
       </div>
-      <h3 className="text-3xl font-bold text-center my-14 mt-20">Digital Marketing</h3>
-      <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-6 gap-8">
-        <div className="bg-gray-100 rounded w-full p-8 flex items-center">
-          <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path
-              d="M15.7501 12C14.7864 12 13.8545 11.5697 13.1251 10.7888C12.4159 10.027 11.9828 9.01125 11.9064 7.92938C11.8248 6.77531 12.1769 5.71406 12.8973 4.94063C13.6178 4.16719 14.6251 3.75 15.7501 3.75C16.8672 3.75 17.8773 4.17469 18.5954 4.94625C19.3206 5.72531 19.6736 6.78469 19.592 7.92891C19.5137 9.01219 19.0811 10.0275 18.3733 10.7883C17.6458 11.5697 16.7143 12 15.7501 12ZM21.9297 20.25H9.57107C9.37237 20.2511 9.17608 20.2065 8.99729 20.1198C8.81851 20.0331 8.662 19.9065 8.53982 19.7498C8.41021 19.58 8.32071 19.383 8.27801 19.1736C8.23531 18.9643 8.24052 18.748 8.29325 18.5409C8.68794 16.9561 9.66576 15.6417 11.1208 14.7403C12.4122 13.9406 14.0561 13.5 15.7501 13.5C17.4775 13.5 19.0783 13.9219 20.3772 14.7211C21.8354 15.6178 22.8147 16.9397 23.2075 18.5438C23.2596 18.751 23.2642 18.9673 23.221 19.1765C23.1778 19.3857 23.088 19.5825 22.9581 19.7522C22.836 19.9082 22.6799 20.0341 22.5016 20.1204C22.3234 20.2067 22.1277 20.251 21.9297 20.25ZM6.89076 12.1875C5.24122 12.1875 3.79091 10.6538 3.65638 8.76891C3.58982 7.80328 3.89076 6.91031 4.50013 6.25547C5.10294 5.60719 5.95325 5.25 6.89076 5.25C7.82826 5.25 8.672 5.60906 9.2781 6.26109C9.89216 6.92109 10.1922 7.81219 10.1218 8.76984C9.98732 10.6542 8.53747 12.1875 6.89076 12.1875ZM9.96857 13.6617C9.14404 13.2586 8.07388 13.057 6.89122 13.057C5.51029 13.057 4.16919 13.417 3.11451 14.0705C1.91872 14.8125 1.11435 15.893 0.789505 17.1975C0.741967 17.3851 0.73747 17.5811 0.776352 17.7707C0.815234 17.9603 0.896488 18.1387 1.01404 18.2925C1.12557 18.4357 1.26847 18.5514 1.43172 18.6307C1.59498 18.71 1.77425 18.7508 1.95575 18.75H7.15888C7.2467 18.75 7.33173 18.7192 7.39915 18.6629C7.46656 18.6066 7.51209 18.5284 7.52779 18.442C7.53294 18.4125 7.53951 18.383 7.54701 18.3539C7.94451 16.7573 8.87591 15.4083 10.2522 14.4248C10.3028 14.3884 10.3435 14.3398 10.3706 14.2836C10.3977 14.2274 10.4104 14.1653 10.4075 14.103C10.4045 14.0407 10.3861 13.9801 10.3538 13.9267C10.3215 13.8733 10.2765 13.8288 10.2226 13.7972C10.149 13.7541 10.0647 13.7086 9.96857 13.6617Z"
-              fill="#4B5563"
-            />
-          </svg>
-          <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">SEO</p>
+
+      {/* Digital Marketing */}
+      <h3 className="text-4xl text-gray-800 font-extrabold mb-6 text-center my-14 mt-20">Digital Marketing</h3>
+      <div className="container px-4 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-6 gap-8">
+        <div className="rounded border-gray-300 h-24">
+          <div className="bg-gray-100 mt-4 rounded w-full p-8 flex items-center">
+            <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2.25C6.62391 2.25 2.25 6.62391 2.25 12C2.25 17.3761 6.62391 21.75 12 21.75C17.3761 21.75 21.75 17.3761 21.75 12C21.75 6.62391 17.3761 2.25 12 2.25ZM9.64594 7.72594C10.2398 7.09641 11.0756 6.75 12 6.75C12.9244 6.75 13.7527 7.09875 14.3489 7.73156C14.9531 8.37281 15.247 9.23437 15.1777 10.1606C15.0389 12 13.6139 13.5 12 13.5C10.3861 13.5 8.95828 12 8.82234 10.1602C8.75344 9.22641 9.04688 8.36203 9.64594 7.72594ZM12 20.25C10.8987 20.2507 9.80838 20.0303 8.79382 19.6018C7.77927 19.1732 6.86109 18.5453 6.09375 17.7553C6.53323 17.1286 7.0932 16.5957 7.74094 16.1878C8.93578 15.4219 10.448 15 12 15C13.552 15 15.0642 15.4219 16.2577 16.1878C16.9059 16.5955 17.4664 17.1284 17.9062 17.7553C17.139 18.5454 16.2208 19.1734 15.2062 19.6019C14.1917 20.0304 13.1014 20.2508 12 20.25Z"
+                fill="#4B5563"
+              />
+            </svg>
+            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">SEO</p>
+          </div>
         </div>
         <div className="rounded border-gray-300 h-24">
           <div className="bg-gray-100 mt-4 rounded w-full p-8 flex items-center">
@@ -383,7 +387,7 @@ export default function IndexPage() {
         </div>
       </div>
 
-      <section className="max-w-8xl mx-auto container pt-16">
+      <section className="max-w-8xl mx-auto px-4 container pt-16">
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col justify-center w-full md:w-1/2 px-4 md:pr-12">
             <h3 className="text-4xl font-bold mb-5">How we can Help you?</h3>
@@ -392,7 +396,6 @@ export default function IndexPage() {
               We help companies to reach out your pottential customer by providing visiblility online,
               make you relevant , help in customer expectation and build customer relationship by Digtal Marketing you business.
             </h2>
-            {/* <p className="text-lg text-gray-600 leading-normal pt-4">Tons of handcrafted UI components for landing pages, created to increase your web creating speed. Create landing pages on the fly with the drag and drop page builder. Perfect UIkit markup, tailored for your needs.</p> */}
           </div>
           <div className="bg-indigo-700 w-full md:w-1/2 px-4 md:px-12 py-10 mt-8 md:mt-0 rounded mr-4">
             <div className="flex pb-10">
@@ -486,77 +489,63 @@ export default function IndexPage() {
         </div>
       </section>
 
-      <div className="container mx-auto">
-        <h3 className="font-bold text-4xl text-center my-24">E-Commerce</h3>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:pb-10">
-          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
-            <h1 className="text-2xl font-bold w-9/12">Payment Gagteway Integration</h1>
-            <div className="flex justify-end w-full items-end">
-              <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 48 48" fill="none">
-                <path
-                  d="M26 26.0001V37.1701L29.656 33.5141L32.486 36.3441L24 44.8281L15.514 36.3441L18.344 33.5141L22 37.1701V26.0001H26ZM24 4.00012C27.434 4.00029 30.7482 5.26235 33.3124 7.54636C35.8767 9.83037 37.5122 12.977 37.908 16.3881C40.3966 17.0668 42.5675 18.5983 44.0414 20.7152C45.5152 22.832 46.1983 25.3995 45.9713 27.9689C45.7442 30.5383 44.6214 32.9462 42.7992 34.7718C40.9769 36.5973 38.571 37.7244 36.002 37.9561L36 34.0001C36.0032 30.8544 34.771 27.8332 32.5687 25.587C30.3665 23.3408 27.3702 22.0492 24.2251 21.9902C21.0799 21.9312 18.0374 23.1096 15.7524 25.2716C13.4675 27.4337 12.1228 30.4065 12.008 33.5501L12 34.0001V37.9561C9.43093 37.7248 7.02484 36.5979 5.2023 34.7725C3.37976 32.9471 2.25669 30.5392 2.02938 27.9698C1.80207 25.4003 2.48499 22.8327 3.95877 20.7157C5.43255 18.5987 7.60345 17.0669 10.092 16.3881C10.4874 12.9769 12.1228 9.82994 14.6872 7.54585C17.2515 5.26176 20.5659 3.99985 24 4.00012Z"
-                  fill="url(#paint0_linear)"
-                />
-                <defs>
-                  <linearGradient id="paint0_linear" x1="24.0003" y1="4.00012" x2="24.0003" y2="44.8281" gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#F56565" />
-                    <stop offset={1} stopColor="#D53F8C" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-          </a>
-          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
-            <h1 className="text-2xl font-bold w-9/12">Logistics Integration</h1>
-            <div className="flex justify-end w-full items-end">
-              <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 48 48" fill="none">
-                <path d="M12.91 38L4 45V8C4 7.46957 4.21071 6.96086 4.58579 6.58579C4.96086 6.21071 5.46957 6 6 6H42C42.5304 6 43.0391 6.21071 43.4142 6.58579C43.7893 6.96086 44 7.46957 44 8V36C44 36.5304 43.7893 37.0391 43.4142 37.4142C43.0391 37.7893 42.5304 38 42 38H12.91ZM22.586 24.242L17.636 19.292L14.808 22.122L22.586 29.9L33.9 18.586L31.072 15.758L22.586 24.242Z" fill="url(#paint0_linear)" />
-                <defs>
-                  <linearGradient id="paint0_linear" x1={24} y1={6} x2={24} y2={45} gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#F56565" />
-                    <stop offset={1} stopColor="#D53F8C" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-          </a>
-          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
-            <h1 className="text-2xl font-bold w-9/12">B2B Wholesale Portal Integration</h1>
-            <div className="flex justify-end w-full items-end">
-              <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 48 48" fill="none">
-                <path d="M12.91 38L4 45V8C4 7.46957 4.21071 6.96086 4.58579 6.58579C4.96086 6.21071 5.46957 6 6 6H42C42.5304 6 43.0391 6.21071 43.4142 6.58579C43.7893 6.96086 44 7.46957 44 8V36C44 36.5304 43.7893 37.0391 43.4142 37.4142C43.0391 37.7893 42.5304 38 42 38H12.91ZM22.586 24.242L17.636 19.292L14.808 22.122L22.586 29.9L33.9 18.586L31.072 15.758L22.586 24.242Z" fill="url(#paint0_linear)" />
-                <defs>
-                  <linearGradient id="paint0_linear" x1={24} y1={6} x2={24} y2={45} gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#F56565" />
-                    <stop offset={1} stopColor="#D53F8C" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-          </a>
-          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
-            <h1 className="text-2xl font-bold w-9/12">E-Commerce Website</h1>
-            <div className="flex justify-end w-full items-end">
-              <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 48 48" fill="none">
-                <path d="M12.91 38L4 45V8C4 7.46957 4.21071 6.96086 4.58579 6.58579C4.96086 6.21071 5.46957 6 6 6H42C42.5304 6 43.0391 6.21071 43.4142 6.58579C43.7893 6.96086 44 7.46957 44 8V36C44 36.5304 43.7893 37.0391 43.4142 37.4142C43.0391 37.7893 42.5304 38 42 38H12.91ZM22.586 24.242L17.636 19.292L14.808 22.122L22.586 29.9L33.9 18.586L31.072 15.758L22.586 24.242Z" fill="url(#paint0_linear)" />
-                <defs>
-                  <linearGradient id="paint0_linear" x1={24} y1={6} x2={24} y2={45} gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#F56565" />
-                    <stop offset={1} stopColor="#D53F8C" />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
-          </a>
+      {/* E-Commerce */}
+      <h3 className="text-4xl text-gray-800 font-extrabold mb-6 text-center my-14 mt-20">E-Commerce</h3>
+      <div className="container px-4 mx-auto grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 pt-6 gap-8">
+        <div className="rounded border-gray-300 h-24">
+          <div className="bg-gray-100 mt-4 rounded w-full p-8 flex items-center">
+            <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2.25C6.62391 2.25 2.25 6.62391 2.25 12C2.25 17.3761 6.62391 21.75 12 21.75C17.3761 21.75 21.75 17.3761 21.75 12C21.75 6.62391 17.3761 2.25 12 2.25ZM9.64594 7.72594C10.2398 7.09641 11.0756 6.75 12 6.75C12.9244 6.75 13.7527 7.09875 14.3489 7.73156C14.9531 8.37281 15.247 9.23437 15.1777 10.1606C15.0389 12 13.6139 13.5 12 13.5C10.3861 13.5 8.95828 12 8.82234 10.1602C8.75344 9.22641 9.04688 8.36203 9.64594 7.72594ZM12 20.25C10.8987 20.2507 9.80838 20.0303 8.79382 19.6018C7.77927 19.1732 6.86109 18.5453 6.09375 17.7553C6.53323 17.1286 7.0932 16.5957 7.74094 16.1878C8.93578 15.4219 10.448 15 12 15C13.552 15 15.0642 15.4219 16.2577 16.1878C16.9059 16.5955 17.4664 17.1284 17.9062 17.7553C17.139 18.5454 16.2208 19.1734 15.2062 19.6019C14.1917 20.0304 13.1014 20.2508 12 20.25Z"
+                fill="#4B5563"
+              />
+            </svg>
+            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">Payment Gagteway Integration</p>
+          </div>
+        </div>
+        <div className="rounded border-gray-300 h-24">
+          <div className="bg-gray-100 mt-4 rounded w-full p-8 flex items-center">
+            <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 2.25C6.62391 2.25 2.25 6.62391 2.25 12C2.25 17.3761 6.62391 21.75 12 21.75C17.3761 21.75 21.75 17.3761 21.75 12C21.75 6.62391 17.3761 2.25 12 2.25ZM9.64594 7.72594C10.2398 7.09641 11.0756 6.75 12 6.75C12.9244 6.75 13.7527 7.09875 14.3489 7.73156C14.9531 8.37281 15.247 9.23437 15.1777 10.1606C15.0389 12 13.6139 13.5 12 13.5C10.3861 13.5 8.95828 12 8.82234 10.1602C8.75344 9.22641 9.04688 8.36203 9.64594 7.72594ZM12 20.25C10.8987 20.2507 9.80838 20.0303 8.79382 19.6018C7.77927 19.1732 6.86109 18.5453 6.09375 17.7553C6.53323 17.1286 7.0932 16.5957 7.74094 16.1878C8.93578 15.4219 10.448 15 12 15C13.552 15 15.0642 15.4219 16.2577 16.1878C16.9059 16.5955 17.4664 17.1284 17.9062 17.7553C17.139 18.5454 16.2208 19.1734 15.2062 19.6019C14.1917 20.0304 13.1014 20.2508 12 20.25Z"
+                fill="#4B5563"
+              />
+            </svg>
+            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">Logistics Integration</p>
+          </div>
+        </div>
+        <div className="rounded border-gray-300 h-24">
+          <div className="bg-gray-100 mt-4 rounded w-full p-8 flex items-center">
+            <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M19.875 3.75H4.125C3.42904 3.75074 2.76179 4.02755 2.26967 4.51967C1.77755 5.01179 1.50074 5.67904 1.5 6.375V17.625C1.50074 18.321 1.77755 18.9882 2.26967 19.4803C2.76179 19.9725 3.42904 20.2493 4.125 20.25H19.875C20.571 20.2493 21.2382 19.9725 21.7303 19.4803C22.2225 18.9882 22.4993 18.321 22.5 17.625V6.375C22.4993 5.67904 22.2225 5.01179 21.7303 4.51967C21.2382 4.02755 20.571 3.75074 19.875 3.75ZM19.2103 8.09203L12.4603 13.342C12.3287 13.4444 12.1667 13.4999 12 13.4999C11.8333 13.4999 11.6713 13.4444 11.5397 13.342L4.78969 8.09203C4.71038 8.03214 4.64377 7.95709 4.59372 7.87123C4.54367 7.78537 4.51118 7.69042 4.49815 7.5919C4.48511 7.49338 4.49179 7.39325 4.51778 7.29733C4.54378 7.20142 4.58858 7.11162 4.64958 7.03316C4.71058 6.95471 4.78656 6.88916 4.87312 6.84032C4.95967 6.79149 5.05506 6.76034 5.15376 6.74869C5.25245 6.73704 5.35248 6.74513 5.44802 6.77247C5.54357 6.79981 5.63272 6.84587 5.71031 6.90797L12 11.7998L18.2897 6.90797C18.447 6.7892 18.6447 6.73711 18.84 6.76296C19.0354 6.78881 19.2128 6.89053 19.3338 7.04612C19.4547 7.20171 19.5096 7.39866 19.4865 7.59439C19.4634 7.79011 19.3642 7.96888 19.2103 8.09203Z"
+                fill="#4B5563"
+              />
+            </svg>
+            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">B2B Wholesale Portal Integration</p>
+          </div>
+        </div>
+        <div className="rounded border-gray-300 h-24">
+          <div className="bg-gray-100 mt-4 rounded w-full p-8 flex items-center">
+            <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M19.875 3.75H4.125C3.42904 3.75074 2.76179 4.02755 2.26967 4.51967C1.77755 5.01179 1.50074 5.67904 1.5 6.375V17.625C1.50074 18.321 1.77755 18.9882 2.26967 19.4803C2.76179 19.9725 3.42904 20.2493 4.125 20.25H19.875C20.571 20.2493 21.2382 19.9725 21.7303 19.4803C22.2225 18.9882 22.4993 18.321 22.5 17.625V6.375C22.4993 5.67904 22.2225 5.01179 21.7303 4.51967C21.2382 4.02755 20.571 3.75074 19.875 3.75ZM19.2103 8.09203L12.4603 13.342C12.3287 13.4444 12.1667 13.4999 12 13.4999C11.8333 13.4999 11.6713 13.4444 11.5397 13.342L4.78969 8.09203C4.71038 8.03214 4.64377 7.95709 4.59372 7.87123C4.54367 7.78537 4.51118 7.69042 4.49815 7.5919C4.48511 7.49338 4.49179 7.39325 4.51778 7.29733C4.54378 7.20142 4.58858 7.11162 4.64958 7.03316C4.71058 6.95471 4.78656 6.88916 4.87312 6.84032C4.95967 6.79149 5.05506 6.76034 5.15376 6.74869C5.25245 6.73704 5.35248 6.74513 5.44802 6.77247C5.54357 6.79981 5.63272 6.84587 5.71031 6.90797L12 11.7998L18.2897 6.90797C18.447 6.7892 18.6447 6.73711 18.84 6.76296C19.0354 6.78881 19.2128 6.89053 19.3338 7.04612C19.4547 7.20171 19.5096 7.39866 19.4865 7.59439C19.4634 7.79011 19.3642 7.96888 19.2103 8.09203Z"
+                fill="#4B5563"
+              />
+            </svg>
+            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">E-Commerce Website</p>
+          </div>
         </div>
       </div>
 
+
+      {/* Technologies */}
       <div className="pt-16">
         <div className="py-12 bg-gray-100">
-          <h3 className="text-3xl font-semibold text-center mb-20">Technologies</h3>
-          <div className="max-w-8xl mx-auto container">
-            <div className="flex flex-wrap items-center justify-center sm:justify-between">
-              <div className="flex flex-col items-center px-6">
+          <h3 className="text-center text-4xl text-gray-800 font-extrabold mb-6 mb-20">Technologies</h3>
+          <div className="max-w-8xl mx-auto px-4 container">
+            <div className="flex flex-wrap items-center justify-center">
+              <div className="flex flex-col items-center p-6">
                 <div className="w-20 h-20 relative ml-6">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
@@ -567,7 +556,7 @@ export default function IndexPage() {
                   Python
                             </h4>
               </div>
-              <div className="fflex flex-col items-center px-6">
+              <div className="fflex flex-col items-center p-6">
                 <div className="w-20 h-20 relative ml-6">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
@@ -578,7 +567,7 @@ export default function IndexPage() {
                   Java
                             </h4>
               </div>
-              <div className="flex flex-col items-center px-6">
+              <div className="flex flex-col items-center p-6">
                 <div className="w-20 h-20 relative ml-6">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
@@ -590,7 +579,7 @@ export default function IndexPage() {
                   React
                             </h4>
               </div>
-              <div className="flex flex-col items-center px-6">
+              <div className="flex flex-col items-center p-6">
                 <div className="w-20 h-20 relative ml-6">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
@@ -600,7 +589,7 @@ export default function IndexPage() {
                   Cloud
                             </h4>
               </div>
-              <div className="flex flex-col items-center px-6">
+              <div className="flex flex-col items-center p-6">
                 <div className="w-20 h-20 relative ml-6">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
@@ -612,7 +601,7 @@ export default function IndexPage() {
                   Server
                             </h4>
               </div>
-              <div className="flex flex-col items-center px-6">
+              <div className="flex flex-col items-center p-6">
                 <div className="w-20 h-20 relative ml-6">
                   <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
                   <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
@@ -628,88 +617,88 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
-
-      <div className="container mx-auto pt-16">
-            <div className="lg:flex">
-                <div className="xl:w-2/5 lg:w-2/5 bg-indigo-700 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
-                    <div className="xl:w-5/6 xl:px-0 px-8 mx-auto">
-                        <h1 className="xl:text-4xl text-3xl pb-4 text-white font-bold">Get in touch</h1>
-                        <div className="flex pb-4 items-center">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-phone-call" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" />
-                                    <path d="M4 4h5l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v5a1 1 0 0 1 -1 1a16 16 0 0 1 -16 -16a1 1 0 0 1 1 -1" />
-                                    <path d="M15 7a2 2 0 0 1 2 2" />
-                                    <path d="M15 3a6 6 0 0 1 6 6" />
-                                </svg>
-                            </div>
-                            <p className="pl-4 text-white text-base">+1 (308) 321 321</p>
-                        </div>
-                        <div className="flex items-center">
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-mail" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" />
-                                    <rect x={3} y={5} width={18} height={14} rx={2} />
-                                    <polyline points="3 7 12 13 21 7" />
-                                </svg>
-                            </div>
-                            <p className="pl-4 text-white text-base">Info@alphas.com</p>
-                        </div>
-                        <p className="text-lg text-white pt-10 tracking-wide">
-                            545, Street 11, Block F <br />
+      {/* Contact-Us */}
+      <div className="container px-4 mx-auto pt-16">
+        <div className="lg:flex container mx-auto">
+          <div className="xl:w-2/5 lg:w-2/5 bg-indigo-700 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
+            <div className="xl:w-5/6 xl:px-0 px-8 mx-auto">
+              <h1 className="xl:text-4xl text-3xl pb-4 text-white font-bold">Get in touch</h1>
+              <div className="flex pb-4 items-center">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-phone-call" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <path d="M4 4h5l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v5a1 1 0 0 1 -1 1a16 16 0 0 1 -16 -16a1 1 0 0 1 1 -1" />
+                    <path d="M15 7a2 2 0 0 1 2 2" />
+                    <path d="M15 3a6 6 0 0 1 6 6" />
+                  </svg>
+                </div>
+                <p className="pl-4 text-white text-base">+1 (308) 321 321</p>
+              </div>
+              <div className="flex items-center">
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-mail" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#FFFFFF" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" />
+                    <rect x={3} y={5} width={18} height={14} rx={2} />
+                    <polyline points="3 7 12 13 21 7" />
+                  </svg>
+                </div>
+                <p className="pl-4 text-white text-base">Info@alphas.com</p>
+              </div>
+              <p className="text-lg text-white pt-10 tracking-wide">
+                545, Street 11, Block F <br />
                             Dean Boulevard, Ohio
                         </p>
-                        <a href="javascript:void(0)">
-                            <p className="text-white pt-16 font-bold tracking-wide underline">View Job Openings</p>
-                        </a>
-                    </div>
-                </div>
-                <div className="xl:w-3/5 lg:w-3/5 bg-gray-200 h-full pt-5 pb-5 xl:pr-5 xl:pl-0 rounded-tr rounded-br">
-                    <form id="contact" className="bg-white py-4 px-8 rounded-tr rounded-br">
-                        <h1 className="text-4xl text-gray-800 font-extrabold mb-6">Enter Details</h1>
-                        <div className="block xl:flex w-full flex-wrap justify-between mb-6">
-                            <div className="w-2/4 max-w-xs mb-6 xl:mb-0">
-                                <div className="flex flex-col">
-                                    <label htmlFor="full_name" className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2">
-                                        Full Name
-                                    </label>
-                                    <input required id="full_name" name="full_name" type="text" className="focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder />
-                                </div>
-                            </div>
-                            <div className="w-2/4 max-w-xs xl:flex xl:justify-end">
-                                <div className="flex flex-col">
-                                    <label htmlFor="email" className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2">
-                                        Email
-                                    </label>
-                                    <input required id="email" name="email" type="email" className="focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="flex w-full flex-wrap">
-                            <div className="w-2/4 max-w-xs">
-                                <div className="flex flex-col">
-                                    <label htmlFor="phone" className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2">
-                                        Phone
-                                    </label>
-                                    <input required id="phone" name="phone" type="tel" className="focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="w-full mt-6">
-                            <div className="flex flex-col">
-                                <label className="text-sm font-semibold text-gray-800 mb-2" htmlFor="message">
-                                    Message
-                                </label>
-                                <textarea placeholder name="message" className="border-gray-300 border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-indigo-700" rows={8} id="message" defaultValue={""} />
-                            </div>
-                            <button type="submit" className="focus:outline-none bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-8 py-3 text-sm leading-6">
-                                Submit
-                            </button>
-                        </div>
-                    </form>
-                </div>
+              <a href="javascript:void(0)">
+                <p className="text-white pt-16 font-bold tracking-wide underline">View Job Openings</p>
+              </a>
             </div>
+          </div>
+          <div className="xl:w-3/5 lg:w-3/5 bg-gray-200 h-full pt-5 pb-5 xl:pr-5 xl:pl-0 rounded-tr rounded-br">
+            <form id="contact" className="bg-white py-4 px-8 rounded-tr rounded-br">
+              <h1 className="text-4xl text-gray-800 font-extrabold mb-6">Enter Details</h1>
+              <div className="block xl:flex w-full flex-wrap justify-between mb-6">
+                <div className="w-2/4 max-w-xs mb-6 xl:mb-0">
+                  <div className="flex flex-col">
+                    <label htmlFor="full_name" className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2">
+                      Full Name
+                                    </label>
+                    <input required id="full_name" name="full_name" type="text" className="focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder />
+                  </div>
+                </div>
+                <div className="w-2/4 max-w-xs xl:flex xl:justify-end">
+                  <div className="flex flex-col">
+                    <label htmlFor="email" className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2">
+                      Email
+                                    </label>
+                    <input required id="email" name="email" type="email" className="focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder />
+                  </div>
+                </div>
+              </div>
+              <div className="flex w-full flex-wrap">
+                <div className="w-2/4 max-w-xs">
+                  <div className="flex flex-col">
+                    <label htmlFor="phone" className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2">
+                      Phone
+                                    </label>
+                    <input required id="phone" name="phone" type="tel" className="focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder />
+                  </div>
+                </div>
+              </div>
+              <div className="w-full mt-6">
+                <div className="flex flex-col">
+                  <label className="text-sm font-semibold text-gray-800 mb-2" htmlFor="message">
+                    Message
+                                </label>
+                  <textarea placeholder name="message" className="border-gray-300 border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-indigo-700" rows={8} id="message" defaultValue={""} />
+                </div>
+                <button type="submit" className="focus:outline-none bg-indigo-700 transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-8 py-3 text-sm leading-6">
+                  Submit
+                            </button>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
 
 
     </>
