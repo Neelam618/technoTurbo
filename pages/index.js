@@ -374,7 +374,7 @@ export default function IndexPage() {
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">Email Marketing</p>
           </div>
         </div>
-        <div className="rounded border-gray-300 h-24 my-8">
+        <div className="rounded border-gray-300 h-24 my-0 lg:my-8 xl:my-0">
           <div className="bg-gray-100 mt-4 rounded w-full p-8 flex items-center">
             <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -525,7 +525,7 @@ export default function IndexPage() {
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">B2B Wholesale Portal Integration</p>
           </div>
         </div>
-        <div className="rounded border-gray-300 h-24">
+        <div className="rounded border-gray-300 h-24 my-0 xl:my-8">
           <div className="bg-gray-100 mt-4 rounded w-full p-8 flex items-center">
             <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -565,7 +565,7 @@ export default function IndexPage() {
                 </div>
                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
                   Java
-                            </h4>
+                </h4>
               </div>
               <div className="flex flex-col items-center p-6">
                 <div className="w-20 h-20 relative ml-6">
@@ -577,7 +577,7 @@ export default function IndexPage() {
                 </div>
                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
                   React
-                            </h4>
+                </h4>
               </div>
               <div className="flex flex-col items-center p-6">
                 <div className="w-20 h-20 relative ml-6">
