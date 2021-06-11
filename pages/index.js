@@ -358,7 +358,7 @@ export default function IndexPage() {
             </svg>
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">Display Advertising</p>
           </div>
-        </div> 
+        </div>
         <div className="rounded border-gray-300 h-24">
           <div className="bg-gray-100 mt-4 rounded w-full p-8 flex items-center">
             <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -369,7 +369,7 @@ export default function IndexPage() {
             </svg>
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">Email Marketing</p>
           </div>
-        </div> 
+        </div>
         <div className="rounded border-gray-300 h-24">
           <div className="bg-gray-100 mt-4 rounded w-full p-8 flex items-center">
             <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -380,7 +380,7 @@ export default function IndexPage() {
             </svg>
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-gray-600">Digital Analytics</p>
           </div>
-        </div> 
+        </div>
       </div>
 
       <section className="max-w-8xl mx-auto container pt-16">
@@ -389,8 +389,8 @@ export default function IndexPage() {
             <h3 className="text-4xl font-bold mb-5">How we can Help you?</h3>
             <p className="uppercase text-lg text-gray-600 leading-normal">Take a business online</p>
             <h2 className="text-xl lg:text-xl font-semibold leading-tight text-gray-800 pt-4">
-            We help companies to reach out your pottential customer by providing visiblility online, 
-            make you relevant , help in customer expectation and build customer relationship by Digtal Marketing you business.  
+              We help companies to reach out your pottential customer by providing visiblility online,
+              make you relevant , help in customer expectation and build customer relationship by Digtal Marketing you business.
             </h2>
             {/* <p className="text-lg text-gray-600 leading-normal pt-4">Tons of handcrafted UI components for landing pages, created to increase your web creating speed. Create landing pages on the fly with the drag and drop page builder. Perfect UIkit markup, tailored for your needs.</p> */}
           </div>
@@ -482,10 +482,153 @@ export default function IndexPage() {
                 <p className="text-base text-white leading-normal pt-2">Take a business global</p>
               </div>
             </div>
-
           </div>
         </div>
       </section>
+
+      <div className="container mx-auto">
+        <h3 className="font-bold text-4xl text-center my-24">E-Commerce</h3>
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:pb-10">
+          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
+            <h1 className="text-2xl font-bold w-9/12">Payment Gagteway Integration</h1>
+            <div className="flex justify-end w-full items-end">
+              <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M26 26.0001V37.1701L29.656 33.5141L32.486 36.3441L24 44.8281L15.514 36.3441L18.344 33.5141L22 37.1701V26.0001H26ZM24 4.00012C27.434 4.00029 30.7482 5.26235 33.3124 7.54636C35.8767 9.83037 37.5122 12.977 37.908 16.3881C40.3966 17.0668 42.5675 18.5983 44.0414 20.7152C45.5152 22.832 46.1983 25.3995 45.9713 27.9689C45.7442 30.5383 44.6214 32.9462 42.7992 34.7718C40.9769 36.5973 38.571 37.7244 36.002 37.9561L36 34.0001C36.0032 30.8544 34.771 27.8332 32.5687 25.587C30.3665 23.3408 27.3702 22.0492 24.2251 21.9902C21.0799 21.9312 18.0374 23.1096 15.7524 25.2716C13.4675 27.4337 12.1228 30.4065 12.008 33.5501L12 34.0001V37.9561C9.43093 37.7248 7.02484 36.5979 5.2023 34.7725C3.37976 32.9471 2.25669 30.5392 2.02938 27.9698C1.80207 25.4003 2.48499 22.8327 3.95877 20.7157C5.43255 18.5987 7.60345 17.0669 10.092 16.3881C10.4874 12.9769 12.1228 9.82994 14.6872 7.54585C17.2515 5.26176 20.5659 3.99985 24 4.00012Z"
+                  fill="url(#paint0_linear)"
+                />
+                <defs>
+                  <linearGradient id="paint0_linear" x1="24.0003" y1="4.00012" x2="24.0003" y2="44.8281" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#F56565" />
+                    <stop offset={1} stopColor="#D53F8C" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </a>
+          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
+            <h1 className="text-2xl font-bold w-9/12">Logistics Integration</h1>
+            <div className="flex justify-end w-full items-end">
+              <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 48 48" fill="none">
+                <path d="M12.91 38L4 45V8C4 7.46957 4.21071 6.96086 4.58579 6.58579C4.96086 6.21071 5.46957 6 6 6H42C42.5304 6 43.0391 6.21071 43.4142 6.58579C43.7893 6.96086 44 7.46957 44 8V36C44 36.5304 43.7893 37.0391 43.4142 37.4142C43.0391 37.7893 42.5304 38 42 38H12.91ZM22.586 24.242L17.636 19.292L14.808 22.122L22.586 29.9L33.9 18.586L31.072 15.758L22.586 24.242Z" fill="url(#paint0_linear)" />
+                <defs>
+                  <linearGradient id="paint0_linear" x1={24} y1={6} x2={24} y2={45} gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#F56565" />
+                    <stop offset={1} stopColor="#D53F8C" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </a>
+          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
+            <h1 className="text-2xl font-bold w-9/12">B2B Wholesale Portal Integration</h1>
+            <div className="flex justify-end w-full items-end">
+              <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 48 48" fill="none">
+                <path d="M12.91 38L4 45V8C4 7.46957 4.21071 6.96086 4.58579 6.58579C4.96086 6.21071 5.46957 6 6 6H42C42.5304 6 43.0391 6.21071 43.4142 6.58579C43.7893 6.96086 44 7.46957 44 8V36C44 36.5304 43.7893 37.0391 43.4142 37.4142C43.0391 37.7893 42.5304 38 42 38H12.91ZM22.586 24.242L17.636 19.292L14.808 22.122L22.586 29.9L33.9 18.586L31.072 15.758L22.586 24.242Z" fill="url(#paint0_linear)" />
+                <defs>
+                  <linearGradient id="paint0_linear" x1={24} y1={6} x2={24} y2={45} gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#F56565" />
+                    <stop offset={1} stopColor="#D53F8C" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </a>
+          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
+            <h1 className="text-2xl font-bold w-9/12">E-Commerce Website</h1>
+            <div className="flex justify-end w-full items-end">
+              <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 48 48" fill="none">
+                <path d="M12.91 38L4 45V8C4 7.46957 4.21071 6.96086 4.58579 6.58579C4.96086 6.21071 5.46957 6 6 6H42C42.5304 6 43.0391 6.21071 43.4142 6.58579C43.7893 6.96086 44 7.46957 44 8V36C44 36.5304 43.7893 37.0391 43.4142 37.4142C43.0391 37.7893 42.5304 38 42 38H12.91ZM22.586 24.242L17.636 19.292L14.808 22.122L22.586 29.9L33.9 18.586L31.072 15.758L22.586 24.242Z" fill="url(#paint0_linear)" />
+                <defs>
+                  <linearGradient id="paint0_linear" x1={24} y1={6} x2={24} y2={45} gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#F56565" />
+                    <stop offset={1} stopColor="#D53F8C" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div className="pt-16">
+        <div className="py-12 bg-gray-100">
+          <h3 className="text-3xl font-semibold text-center mb-20">Technologies</h3>
+          <div className="max-w-8xl mx-auto container">
+            <div className="flex flex-wrap items-center justify-center sm:justify-between">
+              <div className="flex flex-col items-center px-6">
+                <div className="w-20 h-20 relative ml-6">
+                  <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
+                  <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                    <svg height="512px" enable_background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" width="512px" xmlns="http://www.w3.org/2000/svg"><g id="_x32_67-python"><g><path d="M194.005,240.252h105.054c29.216,0,52.529-24.101,52.529-53.414V86.603    c0-28.525-24.002-49.871-52.529-54.691c-35.214-5.804-73.478-5.509-105.054,0.097c-44.462,7.87-52.527,24.298-52.527,54.693    v21.453H246.63v31.959H102.033c-30.591,0-57.349,18.394-65.709,53.315c-9.64,40.035-10.033,65.02,0,106.826    c7.476,31.085,25.28,53.314,55.872,53.314h36.101v-48.001C128.296,270.845,158.298,240.252,194.005,240.252L194.005,240.252z" fill="#347AB4" /><path d="M474.975,209.372c-7.575-30.395-21.935-53.315-52.527-53.315h-39.443v46.626    c0,36.199-30.692,66.691-65.71,66.691H212.24c-28.724,0-52.528,24.594-52.528,53.414v100.138    c0,28.524,24.788,45.246,52.528,53.413c33.247,9.737,65.215,11.509,105.054,0c26.462-7.675,52.529-23.116,52.529-53.413v-20.997    H264.867v-32.417h157.58c30.593,0,41.904-21.346,52.527-53.314C485.992,283.244,485.501,251.57,474.975,209.372L474.975,209.372z" fill="#FFCA1D" /><path d="M187.415,89.594c-10.479,0-18.975-8.591-18.975-19.164c0.094-10.668,8.496-19.259,18.975-19.259    c10.385,0,18.976,8.685,18.976,19.259C206.39,81.003,197.894,89.594,187.415,89.594z" fill="#FFFFFF" /><path d="M314.908,460.076c-10.479,0-18.976-8.591-18.976-19.164c0.095-10.668,8.496-19.259,18.976-19.259    c10.385,0,18.976,8.685,18.976,19.259C333.884,451.485,325.388,460.076,314.908,460.076z" style={{ fill: "#FFFFFF" }} /></g></g><g id="Layer_1" /></svg>
+                  </div>
+                </div>
+                <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
+                  Python
+                            </h4>
+              </div>
+              <div className="fflex flex-col items-center px-6">
+                <div className="w-20 h-20 relative ml-6">
+                  <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
+                  <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                    <svg height="512px" enable-background="new 0 0 512 512" version="1.1" viewBox="0 0 512 512" width="512px" xmlns="http://www.w3.org/2000/svg"><g id="_x31_81-java"><g><path d="M333.283,307.117c8.807-6.02,21.023-11.23,21.023-11.23s-34.768,6.29-69.357,9.165    c-42.315,3.503-87.775,4.221-110.595,1.167c-53.996-7.187,29.647-27.044,29.647-27.044s-32.433-2.154-72.413,17.07    C84.422,319.066,248.383,329.487,333.283,307.117z" fill="#5382A1" /><path d="M256.56,278.277c-17.07-38.362-74.659-72.054,0-130.99C349.727,73.797,301.93,26,301.93,26    c19.316,75.917-67.92,98.917-99.456,146.084C181.001,204.337,212.986,238.927,256.56,278.277z" fill="#F8981D" /><path d="M359.518,119.975c0.09,0-157.403,39.351-82.205,125.958c22.191,25.516-5.84,48.516-5.84,48.516    s56.332-29.108,30.457-65.495C277.762,194.993,259.254,178.103,359.518,119.975z" fill="#F8981D" /><path d="M354.039,362.999c-0.449,1.078-1.797,2.247-1.797,2.336    c115.266-30.277,72.861-106.824,17.787-87.416c-4.852,1.707-7.365,5.66-7.365,5.66s3.053-1.259,9.883-2.696    C400.396,275.044,440.377,318.168,354.039,362.999L354.039,362.999z" fill="#5382A1" /><path d="M396.443,418.971c0,0,13.027,10.692-14.285,19.047c-52.018,15.722-216.339,20.483-261.979,0.63 c-16.441-7.099,14.374-17.072,24.078-19.137c10.061-2.157,15.901-1.799,15.901-1.799c-18.238-12.847-117.963,25.247-50.671,36.119 C292.945,483.657,444.061,440.443,396.443,418.971L396.443,418.971z" fill="#5382A1" /><path d="M195.557,381.776c-70.706,19.766,43.035,60.555,133.055,22.011 c-14.732-5.748-25.334-12.397-25.334-12.397c-40.16,7.637-58.756,8.175-95.233,4.043 C177.948,392.019,195.557,381.776,195.557,381.776L195.557,381.776z" fill="#5382A1" /><path d="M357.092,469.103c-70.705,13.296-157.941,11.771-209.602,3.233c0-0.088,10.602,8.716,65.046,12.22 c82.834,5.302,210.051-2.966,213.016-42.136C425.553,442.42,419.803,457.245,357.092,469.103L357.092,469.103z" fill="#5382A1" /><path d="M317.922,343.144c-53.188,10.243-84.003,9.973-122.904,5.93 c-30.098-3.145-10.422-17.698-10.422-17.698c-77.982,25.874,43.304,55.164,152.281,23.269 C325.289,350.601,317.922,343.144,317.922,343.144z" style={{ fill: "#5382A1" }} /></g></g><g id="Layer_1" /></svg>
+                  </div>
+                </div>
+                <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
+                  Java
+                            </h4>
+              </div>
+              <div className="flex flex-col items-center px-6">
+                <div className="w-20 h-20 relative ml-6">
+                  <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
+                  <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                    <svg enable-background="new 0 0 600 600" version="1.1" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                      <circle class="st0" cx="299.5" cy="299.6" r="50.2" /><g><path class="st0" d="M299.5,414.6c-70.5,0-132.1-8.3-178.2-24.1c-29.9-10.2-55.3-23.8-73.4-39.3c-19.2-16.4-29.4-34.3-29.4-51.6 c0-33.2,36.4-65.7,97.5-86.9c50-17.4,115.2-27.1,183.4-27.1c67,0,131.3,9.4,181,26.6c29.1,10,53.6,23,71,37.4 c18.9,15.8,28.9,33.1,28.9,50c0,34.5-40.7,69.4-106.3,91.1C427.6,406.1,365.6,414.6,299.5,414.6z M299.5,209.6 c-64.7,0-128.7,9.4-175.5,25.7c-56.2,19.6-81.4,46.4-81.4,64.3c0,18.6,27.1,47.9,86.5,68.2c43.6,14.9,102.6,22.8,170.4,22.8 c63.6,0,122.9-8,167-22.7c61.7-20.5,89.9-49.8,89.9-68.3c0-9.5-7.2-20.7-20.3-31.6c-15.1-12.6-37.1-24.1-63.4-33.2 C425.4,218.6,363.9,209.6,299.5,209.6z" /></g><g><path class="st0" d="M185.6,549.8c-10.2,0-19.2-2.2-26.8-6.6c-28.7-16.6-38.7-64.4-26.6-127.9c9.9-52.1,34.1-113.3,68.2-172.4 c33.5-58,73.7-109,113.4-143.5c23.2-20.2,46.7-35,67.9-42.8c23.1-8.5,43.1-8.5,57.7-0.1c29.9,17.2,39.8,70,25.8,137.6 c-9.9,48-33.5,105.9-66.5,163.2c-35.2,61-73.2,110.2-109.9,142.3c-23.8,20.8-48.3,36-70.7,43.9 C206.4,547.7,195.4,549.8,185.6,549.8z M210.7,248.9l10.4,6c-32.3,56-56.2,116.1-65.4,164.9c-11.1,58.5-0.4,93.7,15,102.6 c3.8,2.2,8.8,3.4,14.9,3.4c19.9,0,51.2-12.6,87.4-44.2c34.7-30.3,71-77.5,104.9-136.2c31.8-55.1,54.4-110.5,63.8-156 c13.1-63.7,1.8-102.7-14.3-112c-8.2-4.7-21.5-4.1-37.5,1.8c-18.5,6.8-39.4,20.1-60.4,38.4c-37.7,32.8-76.2,81.6-108.4,137.4 L210.7,248.9z" /></g><g><path class="st0" d="M413.4,550.1c-27.2,0-61.7-16.4-97.7-47.4c-40.2-34.6-81.1-86.1-115.3-145.2v0c-33.6-58-57.6-118.3-67.7-170 c-5.9-30.2-7-57.9-3.2-80.2c4.2-24.3,14.1-41.6,28.8-50.1c29.8-17.3,80.5,0.5,132.1,46.4c36.6,32.5,75,81.9,108.1,139.1   c35.3,61,59,118.5,68.4,166.3c6.1,31,7.1,59.8,2.8,83.2c-4.6,24.9-15,42.6-30,51.3C432.2,547.9,423.3,550.1,413.4,550.1z M221.2,345.5c32.4,56,72.6,106.7,110.2,139c45.1,38.8,80.9,47.2,96.4,38.2c16.1-9.3,27.9-47.4,15.7-109 c-9-45.2-31.7-100.2-65.7-158.9c-31.9-55.1-68.6-102.4-103.3-133.2C225.9,78.4,186.5,68.7,170.4,78c-8.2,4.7-14.3,16.6-17.2,33.4 c-3.3,19.4-2.3,44.2,3.1,71.5C165.9,232,188.9,289.7,221.2,345.5L221.2,345.5z" /></g></svg>
+                  </div>
+                </div>
+                <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
+                  React
+                            </h4>
+              </div>
+              <div className="flex flex-col items-center px-6">
+                <div className="w-20 h-20 relative ml-6">
+                  <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
+                  <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.056 512.056" enable-background="new 0 0 512.056 512.056"><g><g><g><path d="M426.635 188.224C402.969 93.946 307.358 36.704 213.08 60.37 139.404 78.865 85.907 142.542 80.395 218.303 28.082 226.93-7.333 276.331 1.294 328.644c7.669 46.507 47.967 80.566 95.101 80.379h80v-32h-80c-35.346.0-64-28.654-64-64 0-35.346 28.654-64 64-64 8.837.0 16-7.163 16-16-.08-79.529 64.327-144.065 143.856-144.144 68.844-.069 128.107 48.601 141.424 116.144 1.315 6.744 6.788 11.896 13.6 12.8 43.742 6.229 74.151 46.738 67.923 90.479-5.593 39.278-39.129 68.523-78.803 68.721h-64v32h64c61.856-.187 111.848-50.483 111.66-112.339C511.899 245.194 476.655 200.443 426.635 188.224z" /><path d="M245.035 253.664l-64 64 22.56 22.56 36.8-36.64v153.44h32v-153.44l36.64 36.64 22.56-22.56-64-64C261.354 247.46 251.276 247.46 245.035 253.664z" /></g></g></g><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /></svg>                  </div>
+                </div>
+                <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
+                  Cloud
+                            </h4>
+              </div>
+              <div className="flex flex-col items-center px-6">
+                <div className="w-20 h-20 relative ml-6">
+                  <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
+                  <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" enable-background="new 0 0 512 512"><g><g><g><path d="M266.667 298.667h170.667c5.888.0 10.667-4.779 10.667-10.667s-4.779-10.667-10.667-10.667H266.667c-5.888.0-10.667 4.779-10.667 10.667S260.779 298.667 266.667 298.667z" /><path d="M512 202.667V160c0-10.304-3.072-19.84-8.149-28.011-.128-.256-.149-.555-.299-.789L437.589 25.173C427.797 9.429 410.859.0 392.299.0H119.723c-18.581.0-35.499 9.429-45.291 25.173L8.469 131.2c-.128.213-.128.448-.256.683C3.093 140.053.0 149.653.0 160v42.667c0 17.493 8.597 32.939 21.675 42.667C8.597 255.061.0 270.485.0 288v42.667c0 17.493 8.597 32.939 21.675 42.667C8.597 383.061.0 398.485.0 416v42.667C0 488.064 23.936 512 53.333 512h139.861c5.909.0 10.667-4.779 10.667-10.667.0-5.888-4.779-10.667-10.667-10.667H53.333c-17.643.0-32-14.357-32-32V416c0-17.664 14.357-32 32-32h178.432c5.888.0 10.667-4.779 10.667-10.667.0-5.888-4.779-10.667-10.667-10.667H53.333c-17.643.0-32-14.357-32-32V288c0-17.664 14.357-32 32-32h405.333c17.643.0 32 14.357 32 32v42.667c0 4.693-1.152 9.408-3.371 13.952-2.581 5.291-.405 11.669 4.885 14.272 5.312 2.603 11.691.427 14.272-4.885 3.691-7.509 5.547-15.339 5.547-23.339V288c0-17.493-8.597-32.939-21.675-42.667C503.403 235.584 512 220.16 512 202.667zM92.544 36.437c5.867-9.451 16.021-15.104 27.157-15.104h272.576c11.136.0 21.291 5.653 27.179 15.104l44.011 70.72c-1.6-.171-3.157-.491-4.8-.491H53.333c-1.643.0-3.2.32-4.8.469L92.544 36.437zM490.667 202.667c0 17.643-14.357 32-32 32H53.333c-17.643.0-32-14.357-32-32V160c0-17.664 14.357-32 32-32h405.333c17.643.0 32 14.336 32 32v42.667z" /><path d="M42.667 437.333c0 17.643 14.357 32 32 32 17.643.0 32-14.357 32-32 0-17.643-14.357-32-32-32-17.643.0-32 14.335999999999956-32 32zm42.666.0c0 5.888-4.779 10.667-10.667 10.667S64 443.221 64 437.333c0-5.888 4.779-10.667 10.667-10.667S85.333 431.445 85.333 437.333z" /><path d="M437.333 362.667c-1.941.0-3.883.107-5.781.277C413.781 336.277 383.936 320 352 320c-49.664.0-90.645 37.909-95.509 86.315-24.555 4.736-43.157 26.411-43.157 52.352.0 29.397 23.936 53.333 53.333 53.333h170.667C478.507 512 512 478.507 512 437.333S478.507 362.667 437.333 362.667zm0 128H266.667c-17.643.0-32-14.357-32-32s14.357-32 32-32c5.888.0 10.667-4.779 10.667-10.667.0-41.173 33.493-74.667 74.667-74.667 26.667.0 51.52 14.699 64.811 38.357 2.219 3.947 6.613 6.037 11.179 5.269 3.051-.533 6.144-.96 9.344-.96 29.397.0 53.333 23.936 53.333 53.333S466.731 490.667 437.333 490.667z" /><path d="M437.333 149.333H266.667c-5.888.0-10.667 4.779-10.667 10.667s4.779 10.667 10.667 10.667h170.667c5.888.0 10.667-4.779 10.667-10.667S443.221 149.333 437.333 149.333z" /><path d="M437.333 192H266.667c-5.888.0-10.667 4.779-10.667 10.667s4.779 10.667 10.667 10.667h170.667c5.888.0 10.667-4.779 10.667-10.667S443.221 192 437.333 192z" /><path d="M74.667 149.333c-17.643.0-32 14.336-32 32s14.357 32 32 32c17.643.0 32-14.357 32-32C106.667 163.691 92.309 149.333 74.667 149.333zm0 42.667C68.779 192 64 187.221 64 181.333s4.779-10.667 10.667-10.667 10.667 4.779 10.667 10.667S80.555 192 74.667 192z" /><path d="M42.667 309.333c0 17.643 14.357 32 32 32 17.643.0 32-14.357 32-32 0-17.643-14.357-32-32-32-17.643.0-32 14.335999999999956-32 32zm42.666.0c0 5.888-4.779 10.667-10.667 10.667S64 315.221 64 309.333s4.779-10.667 10.667-10.667S85.333 303.445 85.333 309.333z" /></g></g></g><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /><g /></svg>
+                  </div>
+                </div>
+                <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
+                  Server
+                            </h4>
+              </div>
+              <div className="flex flex-col items-center px-6">
+                <div className="w-20 h-20 relative ml-6">
+                  <div className="absolute top-0 right-0 bg-indigo-100 rounded w-16 h-16 mt-2 mr-1" />
+                  <div className="text-white absolute bottom-0 left-0 bg-white rounded w-16 h-16 flex items-center justify-center mt-2 mr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="512pt" viewBox="-37 0 512 512" width="512pt"><g id="surface1"><path d="M438.855469 64C438.855469 28.652344 340.617188.0 219.429688.0 98.242188.0.0 28.652344.0 64c0 35.347656 98.242188 64 219.429688 64C340.617188 128 438.855469 99.347656 438.855469 64zm0 0" style={{ stroke: "none", fill_rule: "nonzero", fill: "#bddbff", fill_opacity: 1 }} /><path d="M219.429688 256C340.570312 256 438.855469 227.382812 438.855469 192V64C438.855469 99.382812 340.570312 128 219.429688 128 98.285156 128 0 99.382812.0 64V192c0 35.382812 98.285156 64 219.429688 64zm0 0" style={{ stroke: "none", fill_rule: "nonzero", fill: "#9bc9ff", fill_opacity: 1 }} /><path d="M219.429688 384C340.570312 384 438.855469 355.382812 438.855469 320V192C438.855469 227.382812 340.570312 256 219.429688 256 98.285156 256 0 227.382812.0 192V320c0 35.382812 98.285156 64 219.429688 64zm0 0" style={{ stroke: "none", fill_rule: "nonzero", fill: "#57a4ff", fill_opacity: 1 }} /><path d="M438.855469 320C438.855469 355.382812 340.570312 384 219.429688 384 98.285156 384 0 355.382812.0 320V448c0 35.382812 98.285156 64 219.429688 64C340.570312 512 438.855469 483.382812 438.855469 448zm0 0" style={{ stroke: "none", fill_rule: "nonzero", fill: "#2488ff", fill_opacity: 1 }} /></g></svg>
+                  </div>
+                </div>
+                <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
+                  Database
+                            </h4>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     </>
   );
