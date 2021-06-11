@@ -101,9 +101,13 @@ export default function IndexPage() {
                           {services && (
                             <div>
                               <ul className="my-3">
-                                <li className="xl:text-base md:text-xl text-base text-indigo-500 hover:text-white py-2 px-6">Best Sellers</li>
-                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Out of Stock</li>
-                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">New Products</li>
+                                <li className="xl:text-base md:text-xl text-base text-indigo-500 hover:text-white py-2 px-6">Android Apps</li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">iOS Apps</li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Website Development</li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Software Development</li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">ERP</li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Automation</li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Data Analytics</li>
                               </ul>
                             </div>
                           )}
@@ -116,29 +120,11 @@ export default function IndexPage() {
                           </div>
                         </li>
                       </a>
-                      <li className="text-indigo-700 pt-8">
-                        <div className="flex items-center justify-between">
-                          <a href="#" className="text-indigo-700 xl:text-base md:text-xl text-base ml-3">E-Commerce</a>
-                          {ecomm ? (
-                            <div onClick={() => setEcomm(!ecomm)}>
-                              <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-up" width={12} height={12} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><polyline points="6 15 12 9 18 15" /></svg>
-                            </div>
-                          ) : (
-                            <div onClick={() => setEcomm(!ecomm)}>
-                              <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chevron-down" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" /><polyline points="6 9 12 15 18 9" /></svg>
-                            </div>
-                          )}
-                        </div>
-                        {ecomm && (
-                          <div>
-                            <ul className="my-3">
-                              <li className="xl:text-base md:text-xl text-base text-indigo-500 hover:text-white py-2 px-6">Best Sellers</li>
-                              <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Out of Stock</li>
-                              <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">New Products</li>
-                            </ul>
-                          </div>
-                        )}
-                      </li>
+                      <a className="cursor-pointer">
+                        <li className="text-gray-800 pt-8">
+                          <a href="" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">E-Commerce</a>
+                        </li>
+                      </a>
                       <li className="text-indigo-700 pt-8">
                         <a href="#" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Technologies</a>
                       </li>
