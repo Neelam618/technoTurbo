@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import teamwork from '../public/img/teamwork-&-Discussion.png'
 
 export default function IndexPage() {
   const [show, setShow] = useState(null);
@@ -344,25 +343,25 @@ export default function IndexPage() {
       {/* E-Commerce */}
       <h3 id="ecommerce" className="text-4xl text-gray-700 font-extrabold mb-6 text-center my-14 mt-32">E-Commerce</h3>
       <div className="container px-4 mx-auto grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 pt-6 gap-8">
-        <div className="rounded border-gray-300 h-24">
+        <div className="rounded border-gray-300 my-4 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/credit-card.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Payment Gateway Integration</p>
           </div>
         </div>
-        <div className="rounded border-gray-300 h-24">
+        <div className="rounded border-gray-300 my-4 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/truck.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Logistics Integration</p>
           </div>
         </div>
-        <div className="rounded border-gray-300 h-24">
+        <div className="rounded border-gray-300 my-4 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/browser.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">B2B Wholesale Portal Integration</p>
           </div>
         </div>
-        <div className="rounded border-gray-300 h-24 my-0 xl:my-8">
+        <div className="rounded border-gray-300 my-4 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/online-shopping.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">E-Commerce Website</p>
