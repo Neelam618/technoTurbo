@@ -8,7 +8,7 @@ export default function IndexPage() {
       <div className="bg-gray-200 h-full w-full">
         {/* Code block starts */}
         <nav className="w-full mx-auto bg-white xl:block hidden fixed z-50">
-          <div className="container px-6 mx-auto">
+          <div className="container xl:w-11/12 xl:mx-auto mx-auto">
             <div className="flex justify-between items-center h-16">
               <div className="mr-10 flex items-center">
                 <svg aria-label="Home" id="logo" enableBackground="new 0 0 300 300" height={44} viewBox="0 0 300 300" width={43} xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><g><path fill="#4c51bf" d="m234.735 35.532c-8.822 0-16 7.178-16 16s7.178 16 16 16 16-7.178 16-16-7.178-16-16-16zm0 24c-4.412 0-8-3.588-8-8s3.588-8 8-8 8 3.588 8 8-3.588 8-8 8zm-62.529-14c0-2.502 2.028-4.53 4.53-4.53s4.53 2.028 4.53 4.53c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.027-4.53-4.529zm89.059 60c0 2.501-2.028 4.529-4.53 4.529s-4.53-2.028-4.53-4.529c0-2.502 2.028-4.53 4.53-4.53s4.53 2.029 4.53 4.53zm-40.522-5.459-88-51.064c-1.242-.723-2.773-.723-4.016 0l-88 51.064c-1.232.715-1.992 2.033-1.992 3.459v104c0 1.404.736 2.705 1.938 3.428l88 52.936c.635.381 1.35.572 2.062.572s1.428-.191 2.062-.572l88-52.936c1.201-.723 1.938-2.023 1.938-3.428v-104c0-1.426-.76-2.744-1.992-3.459zm-90.008-42.98 80.085 46.47-52.95 31.289-23.135-13.607v-21.713c0-2.209-1.791-4-4-4s-4 1.791-4 4v21.713l-26.027 15.309c-1.223.719-1.973 2.029-1.973 3.447v29.795l-52 30.727v-94.688zm0 198.707-80.189-48.237 51.467-30.412 24.723 14.539v19.842c0 2.209 1.791 4 4 4s4-1.791 4-4v-19.842l26.027-15.307c1.223-.719 1.973-2.029 1.973-3.447v-31.667l52-30.728v94.729z" /></g></svg>
@@ -139,7 +139,7 @@ export default function IndexPage() {
         {/* Code block ends */}
       </div>
       {/* About */}
-      <div className="container px-4 mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8 pt-24" id="about">
+      <div className="container xl:w-11/12 xl:mx-auto px-4 mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8 pt-24" id="about">
         <div className="mt-12 sm:mt-16 xl:mt-0">
           <h1 className="font-bold text-2xl md:text-5xl md:leading-snug text-gray-700 text-center xl:text-left">We help you in business growth by creating Apps, Web, Software, ERP and Analytics </h1>
           <button className="bg-red-400 mt-10 hover:bg-red-500 text-xl text-white font-bold py-5 px-20 rounded-lg block xl:inline mx-auto mt-8 tracking-wider">Start With Us</button>
@@ -148,7 +148,7 @@ export default function IndexPage() {
           <img src="img/teamwork-&-Discussion3.svg" alt="" style={{ width: 700 }} />
         </div>
       </div>
-      <div className="container mx-auto px-4 my-8">
+      <div className=" xl:w-11/12 xl:mx-auto mx-auto px-4 my-8">
         <h2 className="font-bold text-3xl text-gray-700 text-center mb-4 tracking-wide">How we can Help you?</h2>
         <div className="text-center text-xl text-gray-400 font-semibold mb-4">
           Move on Mobile & Web | Data Analysis | End to End Business Auomation
@@ -176,7 +176,7 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
-      <div id="services" className="container px-4 mx-auto">
+      <div id="services" className="container xl:w-11/12 xl:mx-auto px-4 mx-auto">
         <h3 className="text-4xl text-gray-700 font-extrabold mb-10 text-center mt-32 mb-16">Services</h3>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:pb-10">
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
@@ -226,7 +226,7 @@ export default function IndexPage() {
 
       {/* Digital Marketing */}
       <h3 id="digitalMarketing" className="text-4xl text-gray-700 font-extrabold mb-6 text-center my-14 mt-32">Digital Marketing</h3>
-      <div className="container px-4 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-6 gap-8">
+      <div className="container xl:w-11/12 xl:mx-auto px-4 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-6 gap-8">
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/seo.svg" className="w-16" alt="" />
@@ -271,7 +271,7 @@ export default function IndexPage() {
         </div>
       </div>
 
-      <section className="max-w-8xl mx-auto px-4 container pt-32">
+      <section className="max-w-8xl mx-auto px-4 container xl:w-11/12 xl:mx-auto pt-32">
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col justify-center w-full md:w-1/2 px-4 md:pr-12">
             <h3 className="text-4xl font-bold mb-5">How we can Help you?</h3>
@@ -342,7 +342,7 @@ export default function IndexPage() {
 
       {/* E-Commerce */}
       <h3 id="ecommerce" className="text-4xl text-gray-700 font-extrabold mb-6 text-center my-14 mt-32">E-Commerce</h3>
-      <div className="container px-4 mx-auto grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 pt-6 gap-8">
+      <div className="container xl:w-11/12 xl:mx-auto px-4 mx-auto grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 pt-6 gap-8">
         <div className="rounded border-gray-300 my-4 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/credit-card.svg" className="w-16" alt="" />
@@ -373,7 +373,7 @@ export default function IndexPage() {
       <div id="technologies" className="pt-16">
         <div className="py-12 bg-purple-50">
           <h3 className="text-center text-4xl text-gray-700 font-extrabold mb-6 mb-20">Technologies</h3>
-          <div className="max-w-8xl mx-auto px-4 container">
+          <div className="max-w-8xl mx-auto px-4 container xl:w-11/12 xl:mx-auto">
             <div className="flex flex-wrap items-center justify-center">
               <div className="flex flex-col items-center p-4 xl:px-14">
                 <div className="w-20 h-20 relative ml-6">
@@ -448,8 +448,8 @@ export default function IndexPage() {
         </div>
       </div>
       {/* Contact-Us */}
-      <div id="contact" className="container px-4 mx-auto pt-16">
-        <div className="lg:flex container mx-auto">
+      <div id="contact" className="container xl:w-11/12 xl:mx-auto px-4 mx-auto pt-16">
+        <div className="lg:flex container xl:w-11/12 xl:mx-auto mx-auto">
           <div className="xl:w-2/5 lg:w-2/5 bg-purple-800 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
             <div className="xl:w-5/6 xl:px-0 px-8 mx-auto">
               <h1 className="xl:text-4xl text-3xl pb-4 text-white font-bold">Get in touch</h1>
