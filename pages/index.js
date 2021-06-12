@@ -19,7 +19,7 @@ export default function IndexPage() {
                 <li className="font-semibold tracking-normal mx-6"><a href="#">About</a></li>
                 <li class="dropdown">
                   <button className="relative font-semibold tracking-normal mx-6">Services
-                  <svg className="fill-current h-4 w-4 inline ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/> </svg>
+                    <svg className="fill-current h-4 w-4 inline ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg>
                   </button>
                   <div className="dropdown-content border rounded bg-white w-44 hidden absolute z-1 px-4">
                     <a href="#" className="block border-b p-2">Android Apps</a>
@@ -146,18 +146,18 @@ export default function IndexPage() {
           <button className="bg-red-400 mt-10 hover:bg-red-500 text-xl text-white font-bold py-5 px-20 rounded-lg block xl:inline mx-auto mt-8 tracking-wider">Start With Us</button>
         </div>
         <div className="justify-self-center xl:justify-self-end">
-          <img src="img/teamwork-&-Discussion.png" alt="" style={{ width: 700 }} />
+          <img src="img/teamwork-&-Discussion3.svg" alt="" style={{ width: 700 }} />
         </div>
       </div>
       <div className="container mx-auto px-4 my-8">
         <h2 className="font-bold text-3xl text-gray-700 text-center mb-4 tracking-wide">How we can Help you?</h2>
         <div className="text-center text-xl text-gray-400 font-semibold mb-4">
           Move on Mobile & Web | Data Analysis | End to End Business Auomation
-          </div>
+        </div>
         <p className="font-semibold text-xl text-center text-gray-700 mb-10 tracking-wide">
           We create Apps, Software, ERP, analyze your buiness data and do automation to help in ease of
           doing business for B2B and B2C customers.
-            </p>
+        </p>
         <div className="mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 pt-6 gap-32">
           <div className="flex flex-col items-center">
             <img src="img/automation.svg" alt="" className="w-24 opacity-80" />
@@ -178,7 +178,7 @@ export default function IndexPage() {
         </div>
       </div>
       <div className="container px-4 mx-auto">
-        <h3 className="text-4xl text-gray-700 font-extrabold mb-10 text-center my-24">Services</h3>
+        <h3 className="text-4xl text-gray-700 font-extrabold mb-10 text-center my-44 mb-20">Services</h3>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:pb-10">
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Android Apps</h1>
@@ -195,7 +195,7 @@ export default function IndexPage() {
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Website Development</h1>
             <div className="flex justify-end w-full items-end">
-             <img src="img/development.svg" className="w-60 mt-8" alt="" />
+              <img src="img/development.svg" className="w-60 mt-8" alt="" />
             </div>
           </a>
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
@@ -219,14 +219,14 @@ export default function IndexPage() {
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Data Analytics</h1>
             <div className="flex justify-end w-full items-end">
-             <img src="img/statistics.svg" className="w-60 mt-8 opacity-70" alt="" />
+              <img src="img/statistics.svg" className="w-60 mt-8 opacity-70" alt="" />
             </div>
           </a>
         </div>
       </div>
 
       {/* Digital Marketing */}
-      <h3 className="text-4xl text-gray-700 font-extrabold mb-6 text-center my-14 mt-20">Digital Marketing</h3>
+      <h3 className="text-4xl text-gray-700 font-extrabold mb-6 text-center my-14 mt-32">Digital Marketing</h3>
       <div className="container px-4 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-6 gap-8">
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
@@ -236,49 +236,43 @@ export default function IndexPage() {
         </div>
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
-          <img src="img/smm.svg" className="w-16" alt="" />
+            <img src="img/smm.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">SMM</p>
           </div>
         </div>
-         <div className="rounded border-gray-300 h-24 my-4">
+        <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
-          <img src="img/pay.svg" className="w-16" alt="" />
+            <img src="img/pay.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Pay Per Click</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
-           <img src="img/content.svg" className="w-16" alt="" />
+            <img src="img/content.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Content Marketing</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
-           <img src="img/poster.svg" className="w-16" alt="" />
+            <img src="img/poster.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Display Advertising</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
-           <img src="img/mail.svg" className="w-16" alt="" />
+            <img src="img/mail.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Email Marketing</p>
           </div>
         </div>
-        {/* <div className="rounded border-gray-300 h-24 my-0 lg:my-8 xl:my-0 my-4">
+        <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/big-data.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Digital Analytics</p>
-          </div>
-        </div> */}
-         <div className="rounded border-gray-300 h-24 my-4">
-          <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
-          <img src="img/big-data.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Digital Analytics</p>
           </div>
         </div>
       </div>
 
-      <section className="max-w-8xl mx-auto px-4 container pt-16">
+      <section className="max-w-8xl mx-auto px-4 container pt-32">
         <div className="flex flex-col md:flex-row">
           <div className="flex flex-col justify-center w-full md:w-1/2 px-4 md:pr-12">
             <h3 className="text-4xl font-bold mb-5">How we can Help you?</h3>
@@ -291,12 +285,7 @@ export default function IndexPage() {
           <div className="bg-purple-800 w-full md:w-1/2 px-4 md:px-12 py-10 mt-8 md:mt-0 rounded mr-4">
             <div className="flex pb-10">
               <div className="mr-5 text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" />
-                  <rect x={3} y={4} width={18} height={4} rx={2} />
-                  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-                  <line x1={10} y1={12} x2={14} y2={12} />
-                </svg>
+                <svg className="w-7 h-7" enable-background="new 0 0 495.639 495.639" viewBox="0 0 495.639 495.639" xmlns="http://www.w3.org/2000/svg"><g><path fill="#fff" d="m111.383 311.449 25.71 25.71 43.907-44.335c-42.189-50.288-51.165-116.721-31.554-172.972l58.424 58.423c-.498 58.74 47.326 110.077 109.726 110.077 36.632-.001 69.123-18.047 89.064-45.712l-66.332-66.333-45.998 46.001-171.066-171.066v38.788h-30l.001-90h89.999v29.999l-38.787.001 149.853 149.853 45.998-46.002 80.878 80.877c13.264-37.921 5.193-82.514-26.018-113.726-39.988-39.986-102.799-42.548-145.7-8.454l-48.503-48.504c69.869-60.736 175.883-57.972 242.507 8.652 33.627 33.627 52.146 78.338 52.146 125.895 0 98.174-79.869 178.046-178.043 178.047-42.804 0-83.297-15.01-115.482-42.528l-43.808 44.233 25.814 25.815-111.38 111.383-72.739-72.739z" /><path fill="#fff" d="m255.12 405.609h239.999v30h-239.999z" /><path fill="#fff" d="m165.119 465.609h180v29.999h-180z" /></g></svg>
               </div>
               <div className="mt-1">
                 <h4 className="text-lg font-bold leading-tight text-white">SEO , SEM</h4>
@@ -305,11 +294,7 @@ export default function IndexPage() {
             </div>
             <div className="flex pb-10">
               <div className="mr-5 text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" />
-                  <circle cx={12} cy={12} r={9} />
-                  <path d="M9 12l2 2l4 -4" />
-                </svg>
+                <svg className="w-7 h-7" enable-background="new 0 0 512.004 512.004" height="512" viewBox="0 0 512.004 512.004" width="512" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="m487.012 300.744 16-7c7.59-3.32 11.051-12.165 7.73-19.754-3.32-7.59-12.166-11.053-19.754-7.73l-16 7c-7.59 3.32-11.051 12.165-7.73 19.754 3.323 7.595 12.172 11.049 19.754 7.73z" /><path fill="#fff" d="m503.012 400.26-16-7c-7.589-3.32-16.434.14-19.754 7.73-3.321 7.59.14 16.434 7.73 19.754l16 7c7.589 3.321 16.435-.141 19.754-7.73 3.321-7.59-.14-16.434-7.73-19.754z" /><path fill="#fff" d="m497 332.002h-16c-8.284 0-15 6.716-15 15s6.716 15 15 15h16c8.284 0 15-6.716 15-15s-6.716-15-15-15z" /><path fill="#fff" d="m289.46 257.002c120.795-59.905 112.715-56.001 115.54-57.06v-139.94c0-24.81-20.19-45-45-45h-315c-24.81 0-45 20.19-45 45v241c0 24.81 20.19 45 45 45h106v-24c0-35.84 29.16-65 65-65zm-140.252-3.084c-9.952 4.977-21.708-2.278-21.708-13.417v-120c0-11.148 11.757-18.392 21.708-13.417l120 60c11.042 5.521 11.033 21.317 0 26.833z" /><path fill="#fff" d="m157.5 216.231 71.459-35.729-71.459-35.73z" /><path fill="#fff" d="m216 287.002c-19.299 0-35 15.701-35 35v50c0 16.7 11.76 30.697 27.432 34.167l-12.228 73.368c-1.524 9.14 5.536 17.466 14.796 17.466h60c7.271 0 13.496-5.215 14.769-12.375l13.55-76.22 1.681.834v-124.479l-4.515 2.239z" /><path fill="#fff" d="m414.336 228.563-83.336 41.324v154.229l83.336 41.324c9.934 4.927 21.664-2.306 21.664-13.438v-210c0-11.124-11.713-18.374-21.664-13.439z" /></svg>
               </div>
               <div className="mt-1">
                 <h4 className="text-lg font-bold leading-tight text-white">Local Listing, SMO, Content Marketing(SMM)</h4>
@@ -318,12 +303,7 @@ export default function IndexPage() {
             </div>
             <div className="flex pb-10">
               <div className="mr-5 text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" />
-                  <polyline points="7 8 3 12 7 16" />
-                  <polyline points="17 8 21 12 17 16" />
-                  <line x1={14} y1={4} x2={10} y2={20} />
-                </svg>
+                <svg className="w-7 h-7" enable-background="new 0 0 510 510" viewBox="0 0 510 510" xmlns="http://www.w3.org/2000/svg"><g><path fill="#fff" d="m0 152.906h45v120h-45z" /><path fill="#fff" d="m180 122.906h-105v180h105zm-37 105h-30v-30h30z" /><path fill="#fff" d="m166 332.906h-76v135h76v-45h30v-30h-30z" /><path fill="#fff" d="m375 363.717 60 20v-341.623l-60 20z" /><path fill="#fff" d="m210 308.717 135 45v-281.623l-135 45z" /><path fill="#fff" d="m465 134.987v155.837c26.88-15.584 45-44.674 45-77.918s-18.12-62.334-45-77.919z" /></g></svg>
               </div>
               <div className="mt-1">
                 <h4 className="text-lg font-bold leading-tight text-white">Ads on Websites, Email, Display Advertising, Video Ads</h4>
@@ -332,13 +312,7 @@ export default function IndexPage() {
             </div>
             <div className="flex pb-10">
               <div className="mr-5 text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" />
-                  <rect x={3} y={4} width={18} height={12} rx={1} />
-                  <line x1={7} y1={20} x2={17} y2={20} />
-                  <line x1={9} y1={16} x2={9} y2={20} />
-                  <line x1={15} y1={16} x2={15} y2={20} />
-                </svg>
+                <svg className="w-7 h-7" enable-background="new 0 0 499.606 499.606" viewBox="0 0 499.606 499.606" xmlns="http://www.w3.org/2000/svg"><g><path fill="#fff" d="m229.606 195.377h30v45h-30z" /><path fill="#fff" d="m289.606 240.377h30c0-17.72 0-106.073 0-120h-30z" /><path fill="#fff" d="m304.606.377c-107.523 0-195 87.477-195 195 0 48.182 17.575 92.331 46.638 126.395l-24.349 24.348-10.606-10.607c-15.068 15.069-106.25 106.251-121.289 121.29l42.426 42.426c15.038-15.038 106.217-106.217 121.29-121.29l-10.607-10.607 24.286-24.285c34.173 29.479 78.646 47.329 127.212 47.329 107.523 0 195-87.476 195-195-.001-107.522-87.477-194.999-195.001-194.999zm105 270c-19.677 0-185.635 0-210 0v-105h60v-75h90v45h60z" /><path fill="#fff" d="m349.606 165.377h30v75h-30z" /></g></svg>
               </div>
               <div className="mt-1">
                 <h4 className="text-lg font-bold leading-tight text-white">Turn Data Analysis into insights</h4>
@@ -347,29 +321,16 @@ export default function IndexPage() {
             </div>
             <div className="flex pb-10">
               <div className="mr-5 text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" />
-                  <rect x={3} y={4} width={18} height={12} rx={1} />
-                  <line x1={7} y1={20} x2={17} y2={20} />
-                  <line x1={9} y1={16} x2={9} y2={20} />
-                  <line x1={15} y1={16} x2={15} y2={20} />
-                </svg>
+                <svg className="w-7 h-7" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><g><path fill="#fff" d="m191 217h116.23l17.32-66h-133.55z" /><path fill="#fff" d="m450.96 5h-389.92c-33.66 0-61.04 27.38-61.04 61.04v274.96h512v-274.96c0-33.66-27.38-61.04-61.04-61.04zm-242.96 302h-24c-8.28 0-15-6.72-15-15s6.72-15 15-15h24c8.28 0 15 6.72 15 15s-6.72 15-15 15zm104 0h-24c-8.28 0-15-6.72-15-15s6.72-15 15-15h24c8.28 0 15 6.72 15 15s-6.72 15-15 15zm44.09-157.98-21.34 81.31c-2.58 9.81-11.47 16.67-21.62 16.67h-129.78c-12.32 0-22.35-10.03-22.35-22.35v-125.65h-32.42c-8.29 0-15-6.72-15-15s6.71-15 15-15h47.42c8.28 0 15 6.72 15 15v37h143.47c14.66 0 25.34 13.86 21.62 28.02z" /><path fill="#fff" d="m61.04 435h98.569v42h-47.609c-8.284 0-15 6.716-15 15s6.716 15 15 15h288c8.284 0 15-6.716 15-15s-6.716-15-15-15h-47.609v-42h98.569c31.312 0 61.04-24.019 61.04-64h-512c0 39.673 29.481 64 61.04 64z" /></g></svg>
               </div>
               <div className="mt-1">
                 <h4 className="text-lg font-bold leading-tight text-white">Use E-commerce Platforms and E-Commerce Ads </h4>
                 <p className="text-base text-white leading-normal pt-2">Sell products or services online</p>
               </div>
             </div>
-
             <div className="flex">
               <div className="mr-5 text-white">
-                <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" />
-                  <rect x={3} y={4} width={18} height={12} rx={1} />
-                  <line x1={7} y1={20} x2={17} y2={20} />
-                  <line x1={9} y1={16} x2={9} y2={20} />
-                  <line x1={15} y1={16} x2={15} y2={20} />
-                </svg>
+                <svg className="w-7 h-7" viewBox="0 0 512 512.001" xmlns="http://www.w3.org/2000/svg"><path fill="#fff" d="m256.066406 136c-66.167968 0-120 53.832031-120 120s53.832032 120 120 120c66.167969 0 120-53.832031 120-120s-53.832031-120-120-120zm88.742188 105h-36.140625c-1.21875-23.308594-5.261719-45.027344-11.699219-62.304688-.453125-1.21875-.914062-2.390624-1.382812-3.539062 25.5625 12.546875 44.339843 36.867188 49.222656 65.84375zm-88.742188 101.980469c-1.546875-.488281-7.710937-5.359375-13.667968-22.582031-4.753907-13.75-7.8125-30.910157-8.890626-49.398438h45.113282c-1.078125 18.488281-4.136719 35.648438-8.890625 49.398438-5.957031 17.222656-12.121094 22.09375-13.664063 22.582031zm-22.558594-101.980469c1.078126-18.488281 4.136719-35.648438 8.894532-49.398438 5.953125-17.222656 12.117187-22.09375 13.664062-22.582031 1.546875.488281 7.710938 5.359375 13.664063 22.582031 4.753906 13.75 7.8125 30.910157 8.890625 49.398438zm-16.964843-65.84375c-.464844 1.148438-.929688 2.320312-1.382813 3.539062-6.4375 17.277344-10.476562 38.996094-11.699218 62.304688h-36.140626c4.882813-28.976562 23.660157-53.296875 49.222657-65.84375zm-49.222657 95.84375h36.140626c1.21875 23.308594 5.261718 45.027344 11.699218 62.304688.453125 1.21875.917969 2.390624 1.382813 3.539062-25.5625-12.546875-44.339844-36.867188-49.222657-65.84375zm128.265626 65.84375c.464843-1.148438.929687-2.320312 1.382812-3.539062 6.4375-17.277344 10.480469-38.996094 11.699219-62.304688h36.140625c-4.882813 28.976562-23.660156 53.296875-49.222656 65.84375zm0 0" /><path fill="#fff" d="m236.734375 55.542969 4.332031-4.328125v40.863281c0 8.28125 6.714844 15 15 15 8.28125 0 15-6.71875 15-15v-40.863281l4.453125 4.453125c2.929688 2.929687 6.769531 4.394531 10.605469 4.394531 3.839844 0 7.679688-1.464844 10.609375-4.394531 5.855469-5.855469 5.855469-15.355469 0-21.210938l-30.0625-30.0625c-2.8125-2.8125-6.628906-4.394531-10.605469-4.394531-3.980468 0-7.792968 1.582031-10.609375 4.394531l-29.933593 29.9375c-5.859376 5.859375-5.859376 15.355469 0 21.214844 5.855468 5.855469 15.351562 5.855469 21.210937-.003906zm0 0" /><path fill="#fff" d="m507.605469 245.457031-29.9375-29.9375c-5.855469-5.855469-15.355469-5.855469-21.210938 0-5.859375 5.859375-5.859375 15.355469 0 21.214844l4.328125 4.328125h-40.863281c-8.285156 0-15 6.71875-15 15 0 8.285156 6.714844 15 15 15h40.863281l-4.453125 4.457031c-5.859375 5.859375-5.859375 15.355469 0 21.210938 2.925781 2.929687 6.765625 4.394531 10.605469 4.394531 3.835938 0 7.675781-1.464844 10.605469-4.394531l30.0625-30.058594c2.8125-2.816406 4.394531-6.628906 4.394531-10.609375 0-3.976562-1.582031-7.792969-4.394531-10.605469zm0 0" /><path fill="#fff" d="m275.265625 456.457031-4.328125 4.328125v-40.863281c0-8.28125-6.71875-15-15-15-8.285156 0-15 6.71875-15 15v40.863281l-4.457031-4.453125c-5.859375-5.859375-15.355469-5.859375-21.210938 0-5.859375 5.855469-5.859375 15.355469 0 21.210938l30.0625 30.0625c2.8125 2.816406 6.625 4.394531 10.605469 4.394531 3.976562 0 7.792969-1.578125 10.605469-4.394531l29.9375-29.9375c5.855469-5.855469 5.855469-15.355469 0-21.210938-5.859375-5.859375-15.355469-5.859375-21.214844 0zm0 0" /><path fill="#fff" d="m92.078125 240.9375h-40.863281l4.453125-4.457031c5.859375-5.859375 5.859375-15.355469 0-21.210938-5.855469-5.859375-15.351563-5.859375-21.210938 0l-30.0625 30.058594c-2.8125 2.816406-4.394531 6.628906-4.394531 10.609375 0 3.976562 1.582031 7.792969 4.394531 10.605469l29.9375 29.9375c2.929688 2.925781 6.769531 4.390625 10.605469 4.390625 3.839844 0 7.679688-1.460938 10.605469-4.390625 5.859375-5.859375 5.859375-15.355469 0-21.214844l-4.328125-4.328125h40.863281c8.285156 0 15-6.71875 15-15 0-8.285156-6.714844-15-15-15zm0 0" /></svg>
               </div>
               <div className="mt-1">
                 <h4 className="text-lg font-bold leading-tight text-white">Expand Internationally</h4>
@@ -381,49 +342,29 @@ export default function IndexPage() {
       </section>
 
       {/* E-Commerce */}
-      <h3 className="text-4xl text-gray-700 font-extrabold mb-6 text-center my-14 mt-20">E-Commerce</h3>
+      <h3 className="text-4xl text-gray-700 font-extrabold mb-6 text-center my-14 mt-32">E-Commerce</h3>
       <div className="container px-4 mx-auto grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 pt-6 gap-8">
         <div className="rounded border-gray-300 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
-            <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M12 2.25C6.62391 2.25 2.25 6.62391 2.25 12C2.25 17.3761 6.62391 21.75 12 21.75C17.3761 21.75 21.75 17.3761 21.75 12C21.75 6.62391 17.3761 2.25 12 2.25ZM9.64594 7.72594C10.2398 7.09641 11.0756 6.75 12 6.75C12.9244 6.75 13.7527 7.09875 14.3489 7.73156C14.9531 8.37281 15.247 9.23437 15.1777 10.1606C15.0389 12 13.6139 13.5 12 13.5C10.3861 13.5 8.95828 12 8.82234 10.1602C8.75344 9.22641 9.04688 8.36203 9.64594 7.72594ZM12 20.25C10.8987 20.2507 9.80838 20.0303 8.79382 19.6018C7.77927 19.1732 6.86109 18.5453 6.09375 17.7553C6.53323 17.1286 7.0932 16.5957 7.74094 16.1878C8.93578 15.4219 10.448 15 12 15C13.552 15 15.0642 15.4219 16.2577 16.1878C16.9059 16.5955 17.4664 17.1284 17.9062 17.7553C17.139 18.5454 16.2208 19.1734 15.2062 19.6019C14.1917 20.0304 13.1014 20.2508 12 20.25Z"
-                fill="#4B5563"
-              />
-            </svg>
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Payment Gagteway Integration</p>
+            <img src="img/credit-card.svg" className="w-16" alt="" />
+            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Payment Gateway Integration</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
-            <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M12 2.25C6.62391 2.25 2.25 6.62391 2.25 12C2.25 17.3761 6.62391 21.75 12 21.75C17.3761 21.75 21.75 17.3761 21.75 12C21.75 6.62391 17.3761 2.25 12 2.25ZM9.64594 7.72594C10.2398 7.09641 11.0756 6.75 12 6.75C12.9244 6.75 13.7527 7.09875 14.3489 7.73156C14.9531 8.37281 15.247 9.23437 15.1777 10.1606C15.0389 12 13.6139 13.5 12 13.5C10.3861 13.5 8.95828 12 8.82234 10.1602C8.75344 9.22641 9.04688 8.36203 9.64594 7.72594ZM12 20.25C10.8987 20.2507 9.80838 20.0303 8.79382 19.6018C7.77927 19.1732 6.86109 18.5453 6.09375 17.7553C6.53323 17.1286 7.0932 16.5957 7.74094 16.1878C8.93578 15.4219 10.448 15 12 15C13.552 15 15.0642 15.4219 16.2577 16.1878C16.9059 16.5955 17.4664 17.1284 17.9062 17.7553C17.139 18.5454 16.2208 19.1734 15.2062 19.6019C14.1917 20.0304 13.1014 20.2508 12 20.25Z"
-                fill="#4B5563"
-              />
-            </svg>
+            <img src="img/truck.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Logistics Integration</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
-            <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M19.875 3.75H4.125C3.42904 3.75074 2.76179 4.02755 2.26967 4.51967C1.77755 5.01179 1.50074 5.67904 1.5 6.375V17.625C1.50074 18.321 1.77755 18.9882 2.26967 19.4803C2.76179 19.9725 3.42904 20.2493 4.125 20.25H19.875C20.571 20.2493 21.2382 19.9725 21.7303 19.4803C22.2225 18.9882 22.4993 18.321 22.5 17.625V6.375C22.4993 5.67904 22.2225 5.01179 21.7303 4.51967C21.2382 4.02755 20.571 3.75074 19.875 3.75ZM19.2103 8.09203L12.4603 13.342C12.3287 13.4444 12.1667 13.4999 12 13.4999C11.8333 13.4999 11.6713 13.4444 11.5397 13.342L4.78969 8.09203C4.71038 8.03214 4.64377 7.95709 4.59372 7.87123C4.54367 7.78537 4.51118 7.69042 4.49815 7.5919C4.48511 7.49338 4.49179 7.39325 4.51778 7.29733C4.54378 7.20142 4.58858 7.11162 4.64958 7.03316C4.71058 6.95471 4.78656 6.88916 4.87312 6.84032C4.95967 6.79149 5.05506 6.76034 5.15376 6.74869C5.25245 6.73704 5.35248 6.74513 5.44802 6.77247C5.54357 6.79981 5.63272 6.84587 5.71031 6.90797L12 11.7998L18.2897 6.90797C18.447 6.7892 18.6447 6.73711 18.84 6.76296C19.0354 6.78881 19.2128 6.89053 19.3338 7.04612C19.4547 7.20171 19.5096 7.39866 19.4865 7.59439C19.4634 7.79011 19.3642 7.96888 19.2103 8.09203Z"
-                fill="#4B5563"
-              />
-            </svg>
+            <img src="img/browser.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">B2B Wholesale Portal Integration</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24 my-0 xl:my-8">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
-            <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M19.875 3.75H4.125C3.42904 3.75074 2.76179 4.02755 2.26967 4.51967C1.77755 5.01179 1.50074 5.67904 1.5 6.375V17.625C1.50074 18.321 1.77755 18.9882 2.26967 19.4803C2.76179 19.9725 3.42904 20.2493 4.125 20.25H19.875C20.571 20.2493 21.2382 19.9725 21.7303 19.4803C22.2225 18.9882 22.4993 18.321 22.5 17.625V6.375C22.4993 5.67904 22.2225 5.01179 21.7303 4.51967C21.2382 4.02755 20.571 3.75074 19.875 3.75ZM19.2103 8.09203L12.4603 13.342C12.3287 13.4444 12.1667 13.4999 12 13.4999C11.8333 13.4999 11.6713 13.4444 11.5397 13.342L4.78969 8.09203C4.71038 8.03214 4.64377 7.95709 4.59372 7.87123C4.54367 7.78537 4.51118 7.69042 4.49815 7.5919C4.48511 7.49338 4.49179 7.39325 4.51778 7.29733C4.54378 7.20142 4.58858 7.11162 4.64958 7.03316C4.71058 6.95471 4.78656 6.88916 4.87312 6.84032C4.95967 6.79149 5.05506 6.76034 5.15376 6.74869C5.25245 6.73704 5.35248 6.74513 5.44802 6.77247C5.54357 6.79981 5.63272 6.84587 5.71031 6.90797L12 11.7998L18.2897 6.90797C18.447 6.7892 18.6447 6.73711 18.84 6.76296C19.0354 6.78881 19.2128 6.89053 19.3338 7.04612C19.4547 7.20171 19.5096 7.39866 19.4865 7.59439C19.4634 7.79011 19.3642 7.96888 19.2103 8.09203Z"
-                fill="#4B5563"
-              />
-            </svg>
+            <img src="img/online-shopping.svg" className="w-16" alt="" />
             <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">E-Commerce Website</p>
           </div>
         </div>
@@ -445,7 +386,7 @@ export default function IndexPage() {
                 </div>
                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
                   Python
-                            </h4>
+                </h4>
               </div>
               <div className="fflex flex-col items-center p-4 xl:px-14">
                 <div className="w-20 h-20 relative ml-6">
@@ -478,7 +419,7 @@ export default function IndexPage() {
                 </div>
                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
                   Cloud
-                            </h4>
+                </h4>
               </div>
               <div className="flex flex-col items-center p-4 xl:px-14">
                 <div className="w-20 h-20 relative ml-6">
@@ -490,7 +431,7 @@ export default function IndexPage() {
                 </div>
                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
                   Server
-                            </h4>
+                </h4>
               </div>
               <div className="flex flex-col items-center p-4 xl:px-14">
                 <div className="w-20 h-20 relative ml-6">
@@ -501,7 +442,7 @@ export default function IndexPage() {
                 </div>
                 <h4 className="text-lg font-bold leading-tight text-gray-800 text-center pt-5">
                   Database
-                            </h4>
+                </h4>
               </div>
 
             </div>
@@ -537,8 +478,8 @@ export default function IndexPage() {
               </div>
               <p className="text-lg text-white pt-10 tracking-wide">
                 545, Street 11, Block F <br />
-                            Dean Boulevard, Ohio
-                        </p>
+                Dean Boulevard, Ohio
+              </p>
               <a href="javascript:void(0)">
                 <p className="text-white pt-16 font-bold tracking-wide underline">View Job Openings</p>
               </a>
@@ -552,7 +493,7 @@ export default function IndexPage() {
                   <div className="flex flex-col">
                     <label htmlFor="full_name" className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2">
                       Full Name
-                                    </label>
+                    </label>
                     <input required id="full_name" name="full_name" type="text" className="focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder />
                   </div>
                 </div>
@@ -560,7 +501,7 @@ export default function IndexPage() {
                   <div className="flex flex-col">
                     <label htmlFor="email" className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2">
                       Email
-                                    </label>
+                    </label>
                     <input required id="email" name="email" type="email" className="focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder />
                   </div>
                 </div>
@@ -570,7 +511,7 @@ export default function IndexPage() {
                   <div className="flex flex-col">
                     <label htmlFor="phone" className="text-gray-800 text-sm font-semibold leading-tight tracking-normal mb-2">
                       Phone
-                                    </label>
+                    </label>
                     <input required id="phone" name="phone" type="tel" className="focus:outline-none focus:border focus:border-indigo-700 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border" placeholder />
                   </div>
                 </div>
@@ -579,12 +520,12 @@ export default function IndexPage() {
                 <div className="flex flex-col">
                   <label className="text-sm font-semibold text-gray-800 mb-2" htmlFor="message">
                     Message
-                                </label>
+                  </label>
                   <textarea placeholder name="message" className="border-gray-300 border mb-4 rounded py-2 text-sm outline-none resize-none px-3 focus:border focus:border-indigo-700" rows={8} id="message" defaultValue={""} />
                 </div>
                 <button type="submit" className="focus:outline-none bg-purple-700 transition duration-150 ease-in-out hover:bg-purple-600 rounded text-white px-8 py-3 text-sm leading-6">
                   Submit
-                            </button>
+                </button>
               </div>
             </form>
           </div>
@@ -592,65 +533,64 @@ export default function IndexPage() {
       </div>
 
       {/* Footer */}
-      <div className="bg-black py-16 flex flex-col items-center justify-center mt-14 f-f-l">
-            <div className="w-44">
-                <img loading="lazy" src="https://i.ibb.co/6sZ76Pj/foodies.png" />
-            </div>
-            <div className="flex items-center py-12">
-                <a className="cursor-pointer" href="javascript:void(0)">
-                    <svg xmlns="http://www.w3.org/2000/svg" width={13} height={20} viewBox="0 0 13 20" fill="none">
-                        <path d="M1 8V12H4V19H8V12H11L12 8H8V6C8 5.73478 8.10536 5.48043 8.29289 5.29289C8.48043 5.10536 8.73478 5 9 5H12V1H9C7.67392 1 6.40215 1.52678 5.46447 2.46447C4.52678 3.40215 4 4.67392 4 6V8H1Z" stroke="white" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                </a>
-                <a className="cursor-pointer" href="javascript:void(0)">
-                    <div className="px-9">
-                        <svg xmlns="http://www.w3.org/2000/svg" width={22} height={18} viewBox="0 0 22 18" fill="none">
-                            <path d="M21 1.01001C20 1.50001 19.02 1.69901 18 2.00001C16.879 0.735013 15.217 0.665013 13.62 1.26301C12.023 1.86101 10.977 3.32301 11 5.00001V6.00001C7.755 6.08301 4.865 4.60501 3 2.00001C3 2.00001 -1.182 9.43301 7 13C5.128 14.247 3.261 15.088 1 15C4.308 16.803 7.913 17.423 11.034 16.517C14.614 15.477 17.556 12.794 18.685 8.77501C19.0218 7.55268 19.189 6.28987 19.182 5.02201C19.18 4.77301 20.692 2.25001 21 1.00901V1.01001Z" stroke="white" strokeLinecap="round" strokeLinejoin="round" />
-                        </svg>
-                    </div>
-                </a>
-                <a className="cursor-pointer" href="javascript:void(0)">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-instagram" width={22} height={22} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                        <rect x={4} y={4} width={16} height={16} rx={4} />
-                        <circle cx={12} cy={12} r={3} />
-                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                    </svg>
-                </a>
-            </div>
-            <div>
-                <ul className="flex">
-                    <a href="javascript:void(0)">
-                        <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">About</li>
-                    </a>
-                    <a href="javascript:void(0)">
-                        <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white relative font-normal cursor-pointer hover:text-indigo-600">Services</li>
-                    </a>
-                    <a href="javascript:void(0)">
-                        <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Digital Marketing</li>
-                    </a>
-                    <a href="javascript:void(0)">
-                        <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">E-Commerce</li>
-                    </a>
-                    <a href="javascript:void(0)">
-                        <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Technologies</li>
-                    </a>
-                    <a href="javascript:void(0)">
-                        <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Careers</li>
-                    </a>
-                    <a href="javascript:void(0)">
-                        <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Contact Us</li>
-                    </a>
-                    <a href="javascript:void(0)">
-                        <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-white flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Products</li>
-                    </a>
-                </ul>
-            </div>
-            <div className="pt-16 flex lg:items-start items-center">
-                <img loading="lazy" src="https://cdn.tuk.dev/assets/templates/foodies/tm.png" className="pr-4" />
-                <p className="lg:text-base text-xs text-white leading-5">2021 Foodies, All rights reserved</p>
-            </div>
+      <div className="bg-gray-200 py-16 flex flex-col items-center justify-center mt-14 f-f-l">
+        <div className="w-44">
+          <img loading="lazy" src="https://i.ibb.co/6sZ76Pj/foodies.png" />
         </div>
+        {/* <div className="flex items-center py-12">
+          <a className="cursor-pointer" href="javascript:void(0)">
+            <svg xmlns="http://www.w3.org/2000/svg" width={13} height={20} viewBox="0 0 13 20" fill="none">
+              <path d="M1 8V12H4V19H8V12H11L12 8H8V6C8 5.73478 8.10536 5.48043 8.29289 5.29289C8.48043 5.10536 8.73478 5 9 5H12V1H9C7.67392 1 6.40215 1.52678 5.46447 2.46447C4.52678 3.40215 4 4.67392 4 6V8H1Z" stroke="white" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </a>
+          <a className="cursor-pointer" href="javascript:void(0)">
+            <div className="px-9">
+              <svg xmlns="http://www.w3.org/2000/svg" width={22} height={18} viewBox="0 0 22 18" fill="none">
+                <path d="M21 1.01001C20 1.50001 19.02 1.69901 18 2.00001C16.879 0.735013 15.217 0.665013 13.62 1.26301C12.023 1.86101 10.977 3.32301 11 5.00001V6.00001C7.755 6.08301 4.865 4.60501 3 2.00001C3 2.00001 -1.182 9.43301 7 13C5.128 14.247 3.261 15.088 1 15C4.308 16.803 7.913 17.423 11.034 16.517C14.614 15.477 17.556 12.794 18.685 8.77501C19.0218 7.55268 19.189 6.28987 19.182 5.02201C19.18 4.77301 20.692 2.25001 21 1.00901V1.01001Z" stroke="white" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+          </a>
+          <a className="cursor-pointer" href="javascript:void(0)">
+            <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-brand-instagram" width={22} height={22} viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <rect x={4} y={4} width={16} height={16} rx={4} />
+              <circle cx={12} cy={12} r={3} />
+              <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+            </svg>
+          </a>
+        </div> */}
+        <div>
+          <ul className="flex mt-7">
+            <a href="javascript:void(0)">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">About</li>
+            </a>
+            <a href="javascript:void(0)">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 relative font-normal cursor-pointer hover:text-indigo-600">Services</li>
+            </a>
+            <a href="javascript:void(0)">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Digital Marketing</li>
+            </a>
+            <a href="javascript:void(0)">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">E-Commerce</li>
+            </a>
+            <a href="javascript:void(0)">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Technologies</li>
+            </a>
+            <a href="javascript:void(0)">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Careers</li>
+            </a>
+            <a href="javascript:void(0)">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Contact Us</li>
+            </a>
+            <a href="javascript:void(0)">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Products</li>
+            </a>
+          </ul>
+        </div>
+        <div className="pt-16 flex lg:items-start items-center">
+          <p className="lg:text-base text-xs text-gray-500 text-white leading-5">&copy; 2021 Foodies, All rights reserved</p>
+        </div>
+      </div>
 
 
     </>
