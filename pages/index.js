@@ -15,9 +15,9 @@ export default function IndexPage() {
                 <h3 className="text-base text-gray-800 font-bold tracking-normal leading-tight ml-3 hidden lg:block">TechnoTurbo</h3>
               </div>
               <ul className="xl:flex hidden items-center h-full">
-                <li className="font-semibold tracking-normal mx-6"><a href="#about">About</a></li>
+                <li className="font-semibold tracking-normal mx-6"><a href="/#about">About</a></li>
                 <li class="dropdown">
-                  <a href="#services" className="relative font-semibold tracking-normal mx-6">Services
+                  <a href="/#services" className="relative font-semibold tracking-normal mx-6">Services
                     <svg className="fill-current h-4 w-4 inline ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg>
                   </a>
                   <div className="dropdown-content border rounded bg-white w-44 hidden absolute z-1 px-4">
@@ -29,12 +29,12 @@ export default function IndexPage() {
                     <a href="services/data-analytics" className="block p-2">Data Analytics</a>
                   </div>
                 </li>
-                <li className="font-semibold tracking-normal mx-6"><a href="#digitalMarketing">Digital Marketing</a></li>
-                <li className="font-semibold tracking-normal mx-6"><a href="#ecommerce">E-Commerce</a></li>
-                <li className="font-semibold tracking-normal mx-6"><a href="#technologies">Technologies</a></li>
-                <li className="mx-6 tracking-normal font-semibold"><a href="#careers">Careers</a></li>
-                <li className="mx-6 tracking-normal font-semibold"><a href="#contact">Contact Us</a></li>
-                <li className="mx-6 tracking-normal font-semibold"><a href="#products">Products</a></li>
+                <li className="font-semibold tracking-normal mx-6"><a href="/#digitalMarketing">Digital Marketing</a></li>
+                <li className="font-semibold tracking-normal mx-6"><a href="/#ecommerce">E-Commerce</a></li>
+                <li className="font-semibold tracking-normal mx-6"><a href="/#technologies">Technologies</a></li>
+                <li className="mx-6 tracking-normal font-semibold"><a href="/#careers">Careers</a></li>
+                <li className="mx-6 tracking-normal font-semibold"><a href="/#contact">Contact Us</a></li>
+                <li className="mx-6 tracking-normal font-semibold"><a href="/#products">Products</a></li>
               </ul>
             </div>
           </div>
@@ -559,29 +559,29 @@ export default function IndexPage() {
         </div> */}
         <div>
           <ul className="flex mt-7">
-            <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#about">About</a></li>
+            <a href="/#about">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">About</li>
             </a>
-            <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 relative font-normal cursor-pointer hover:text-indigo-600"><a href="#services">Services</a></li>
+            <a href="/#services">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 relative font-normal cursor-pointer hover:text-indigo-600">Services</li>
             </a>
-            <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#digitalMarketing">Digital Marketing</a></li>
+            <a href="/#digitalMarketing">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Digital Marketing</li>
             </a>
-            <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#ecommerce">E-Commerce</a></li>
+            <a href="/#ecommerce">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">E-Commerce</li>
             </a>
-            <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#technologies">Technologies</a></li>
+            <a href="/#technologies">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Technologies</li>
             </a>
-            <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#careers">Careers</a></li>
+            <a href="/#careers">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Careers</li>
             </a>
-            <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#contact">Contact Us</a></li>
+            <a href="/#contact">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Contact Us</li>
             </a>
-            <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#products">Products</a></li>
+            <a href="/#products">
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Products</li>
             </a>
           </ul>
         </div>
@@ -589,8 +589,6 @@ export default function IndexPage() {
           <p className="lg:text-base text-xs text-gray-500 text-white leading-5">&copy; 2021 TechnoTurbo, All rights reserved</p>
         </div>
       </div>
-
-
     </>
   );
 }
