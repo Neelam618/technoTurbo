@@ -183,43 +183,43 @@ export default function IndexPage() {
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Android Apps</h1>
             <div className="flex justify-end w-full items-end">
-              <img src="img/user-interface.svg" className="w-60 mt-8 opacity-90" alt="" />
+              <img src="img/user-interface.svg" className="w-44 mt-8 opacity-90" alt="" />
             </div>
           </a>
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">iOS Apps</h1>
             <div className="flex justify-end w-full items-end">
-              <img src="img/user-interface2.svg" className="w-60 mt-8" alt="" />
+              <img src="img/user-interface2.svg" className="w-44 mt-8" alt="" />
             </div>
           </a>
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Website Development</h1>
             <div className="flex justify-end w-full items-end">
-              <img src="img/development.svg" className="w-60 mt-8" alt="" />
+              <img src="img/development.svg" className="w-44 mt-8" alt="" />
             </div>
           </a>
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Software Development</h1>
             <div className="flex justify-end w-full items-end">
-              <img src="img/software.svg" className="w-60 mt-8 opacity-80" alt="" />
+              <img src="img/software.svg" className="w-44 mt-8 opacity-80" alt="" />
             </div>
           </a>
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">ERP</h1>
             <div className="flex justify-end w-full items-end">
-              <img src="img/management.svg" className="w-60 mt-8 opacity-70" alt="" />
+              <img src="img/management.svg" className="w-44 mt-8 opacity-70" alt="" />
             </div>
           </a>
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Automation</h1>
             <div className="flex justify-end w-full items-end">
-              <img src="img/gears.svg" className="w-60 mt-8" alt="" />
+              <img src="img/gears.svg" className="w-44 mt-8" alt="" />
             </div>
           </a>
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Data Analytics</h1>
             <div className="flex justify-end w-full items-end">
-              <img src="img/statistics.svg" className="w-60 mt-8 opacity-70" alt="" />
+              <img src="img/statistics.svg" className="w-44 mt-8 opacity-70" alt="" />
             </div>
           </a>
         </div>
@@ -373,7 +373,7 @@ export default function IndexPage() {
 
       {/* Technologies */}
       <div className="pt-16">
-        <div className="py-12 bg-red-50">
+        <div className="py-12 bg-purple-50">
           <h3 className="text-center text-4xl text-gray-700 font-extrabold mb-6 mb-20">Technologies</h3>
           <div className="max-w-8xl mx-auto px-4 container">
             <div className="flex flex-wrap items-center justify-center">
