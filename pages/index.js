@@ -148,7 +148,7 @@ export default function IndexPage() {
           <img src="img/teamwork-&-Discussion3.svg" alt="" style={{ width: 700 }} />
         </div>
       </div>
-      <div className=" xl:w-11/12 xl:mx-auto mx-auto px-4 my-8">
+      <div className="container mx-auto xl:w-11/12 xl:mx-auto mx-auto px-4 my-8">
         <h2 className="font-bold text-3xl text-gray-700 text-center mb-4 tracking-wide">How we can Help you?</h2>
         <div className="text-center text-lg text-gray-400 font-semibold mb-10 tracking-wide">
           Move on Mobile & Web | Data Analysis | End to End Business Auomation
