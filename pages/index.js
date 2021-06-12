@@ -16,26 +16,26 @@ export default function IndexPage() {
                 <h3 className="text-base text-gray-800 font-bold tracking-normal leading-tight ml-3 hidden lg:block">TechnoTurbo</h3>
               </div>
               <ul className="xl:flex hidden items-center h-full">
-                <li className="font-semibold tracking-normal mx-6"><a href="#">About</a></li>
+                <li className="font-semibold tracking-normal mx-6"><a href="#about">About</a></li>
                 <li class="dropdown">
-                  <button className="relative font-semibold tracking-normal mx-6">Services
+                  <button href="#services" className="relative font-semibold tracking-normal mx-6">Services
                     <svg className="fill-current h-4 w-4 inline ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg>
                   </button>
                   <div className="dropdown-content border rounded bg-white w-44 hidden absolute z-1 px-4">
-                    <a href="#" className="block border-b p-2">Android Apps</a>
-                    <a href="#" className="block border-b p-2">Website Development</a>
-                    <a href="#" className="block border-b p-2">Software Development</a>
-                    <a href="#" className="block border-b p-2">ERP</a>
-                    <a href="#" className="block border-b p-2">Automation</a>
-                    <a href="#" className="block p-2">Data Analytics</a>
+                    <a href="services/android-apps" className="block border-b p-2">Android Apps</a>
+                    <a href="services/web-development" className="block border-b p-2">Website Development</a>
+                    <a href="services/software-development" className="block border-b p-2">Software Development</a>
+                    <a href="services/erp" className="block border-b p-2">ERP</a>
+                    <a href="services/automation" className="block border-b p-2">Automation</a>
+                    <a href="services/data-analytics" className="block p-2">Data Analytics</a>
                   </div>
                 </li>
-                <li className="font-semibold tracking-normal mx-6"><a href="#">Digital Marketing</a></li>
-                <li className="font-semibold tracking-normal mx-6"><a href="#">E-Commerce</a></li>
-                <li className="font-semibold tracking-normal mx-6"><a href="#">Technologies</a></li>
-                <li className="mx-6 tracking-normal font-semibold"><a href="#">Careers</a></li>
-                <li className="mx-6 tracking-normal font-semibold"><a href="#">Contact Us</a></li>
-                <li className="mx-6 tracking-normal font-semibold"><a href="#">Products</a></li>
+                <li className="font-semibold tracking-normal mx-6"><a href="#digitalMarketing">Digital Marketing</a></li>
+                <li className="font-semibold tracking-normal mx-6"><a href="#ecommerce">E-Commerce</a></li>
+                <li className="font-semibold tracking-normal mx-6"><a href="#technologies">Technologies</a></li>
+                <li className="mx-6 tracking-normal font-semibold"><a href="#careers">Careers</a></li>
+                <li className="mx-6 tracking-normal font-semibold"><a href="#contact">Contact Us</a></li>
+                <li className="mx-6 tracking-normal font-semibold"><a href="#products">Products</a></li>
               </ul>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function IndexPage() {
                           <a href="" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">About</a>
                         </li>
                       </a>
-                      <a className="cursor-pointer">
+                      <a id="services" className="cursor-pointer">
                         <li className="text-indigo-700 pt-8">
                           <div className="flex items-center justify-between">
                             <p className="text-indigo-700 xl:text-base md:text-xl text-base ml-3">Services</p>
@@ -94,13 +94,13 @@ export default function IndexPage() {
                           {services && (
                             <div>
                               <ul className="my-3">
-                                <li className="xl:text-base md:text-xl text-base text-indigo-500 hover:text-white py-2 px-6">Android Apps</li>
-                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">iOS Apps</li>
-                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Website Development</li>
-                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Software Development</li>
-                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">ERP</li>
-                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Automation</li>
-                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6">Data Analytics</li>
+                                <li className="xl:text-base md:text-xl text-base text-indigo-500 py-2 px-6"><a href="services/android-apps">Android Apps</a></li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6"><a href="services/ios-apps">iOS Apps</a></li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6"><a href="services/web-development">Website Development</a></li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6"><a href="services/software-development">Software Development</a></li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6"><a href="services/erp">ERP</a></li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6"><a href="services/automation">Automation</a></li>
+                                <li className="text-gray-800 xl:text-base md:text-xl text-base hover:text-indigo-500 py-2 px-6"><a href="services/data-analytics">Data Analytics</a></li>
                               </ul>
                             </div>
                           )}
@@ -109,26 +109,26 @@ export default function IndexPage() {
                       <a className="cursor-pointer">
                         <li className="text-indigo-700 pt-8">
                           <div className="flex items-center justify-between">
-                            <a href="#" className="text-indigo-700 xl:text-base md:text-xl text-base ml-3">Digital Marketing</a>
+                            <a href="#digitalMarketing" className="text-indigo-700 xl:text-base md:text-xl text-base ml-3">Digital Marketing</a>
                           </div>
                         </li>
                       </a>
                       <a className="cursor-pointer">
                         <li className="text-gray-800 pt-8">
-                          <a href="" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">E-Commerce</a>
+                          <a href="#ecommerce" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">E-Commerce</a>
                         </li>
                       </a>
                       <li className="text-indigo-700 pt-8">
-                        <a href="#" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Technologies</a>
+                        <a href="#technologies" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Technologies</a>
                       </li>
                       <li className="text-gray-800 pt-8">
-                        <a href="#" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Careers</a>
+                        <a href="#careers" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Careers</a>
                       </li>
                       <li className="text-gray-800 pt-8">
-                        <a href="#" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Contact Us</a>
+                        <a href="#contact" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Contact Us</a>
                       </li>
                       <li className="text-gray-800 pt-8">
-                        <a href="#" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Products</a>
+                        <a href="#products" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">Products</a>
                       </li>
                     </ul>
                   </div>
@@ -140,7 +140,7 @@ export default function IndexPage() {
         {/* Code block ends */}
       </div>
       {/* About */}
-      <div className="container px-4 mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8">
+      <div className="container px-4 mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8" id="about">
         <div className="mt-12 sm:mt-16 xl:mt-0">
           <h1 className="font-bold text-2xl md:text-5xl md:leading-snug text-gray-700 text-center xl:text-left">We help you in business growth by creating Apps, Web, Software, ERP and Analytics </h1>
           <button className="bg-red-400 mt-10 hover:bg-red-500 text-xl text-white font-bold py-5 px-20 rounded-lg block xl:inline mx-auto mt-8 tracking-wider">Start With Us</button>
@@ -177,7 +177,7 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
-      <div className="container px-4 mx-auto">
+      <div id="services" className="container px-4 mx-auto">
         <h3 className="text-4xl text-gray-700 font-extrabold mb-10 text-center my-44 mb-20">Services</h3>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:pb-10">
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
@@ -226,7 +226,7 @@ export default function IndexPage() {
       </div>
 
       {/* Digital Marketing */}
-      <h3 className="text-4xl text-gray-700 font-extrabold mb-6 text-center my-14 mt-32">Digital Marketing</h3>
+      <h3 id="digitalMarketing" className="text-4xl text-gray-700 font-extrabold mb-6 text-center my-14 mt-32">Digital Marketing</h3>
       <div className="container px-4 mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pt-6 gap-8">
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
@@ -342,7 +342,7 @@ export default function IndexPage() {
       </section>
 
       {/* E-Commerce */}
-      <h3 className="text-4xl text-gray-700 font-extrabold mb-6 text-center my-14 mt-32">E-Commerce</h3>
+      <h3 id="ecommerce" className="text-4xl text-gray-700 font-extrabold mb-6 text-center my-14 mt-32">E-Commerce</h3>
       <div className="container px-4 mx-auto grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 pt-6 gap-8">
         <div className="rounded border-gray-300 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
@@ -372,7 +372,7 @@ export default function IndexPage() {
 
 
       {/* Technologies */}
-      <div className="pt-16">
+      <div id="technologies" className="pt-16">
         <div className="py-12 bg-purple-50">
           <h3 className="text-center text-4xl text-gray-700 font-extrabold mb-6 mb-20">Technologies</h3>
           <div className="max-w-8xl mx-auto px-4 container">
@@ -450,7 +450,7 @@ export default function IndexPage() {
         </div>
       </div>
       {/* Contact-Us */}
-      <div className="container px-4 mx-auto pt-16">
+      <div id="contact" className="container px-4 mx-auto pt-16">
         <div className="lg:flex container mx-auto">
           <div className="xl:w-2/5 lg:w-2/5 bg-purple-800 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
             <div className="xl:w-5/6 xl:px-0 px-8 mx-auto">
