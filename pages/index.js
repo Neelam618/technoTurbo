@@ -139,7 +139,7 @@ export default function IndexPage() {
         {/* Code block ends */}
       </div>
       {/* About */}
-      <div className="container xl:w-11/12 xl:mx-auto px-4 mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8 pt-24" id="about">
+      <div className="container xl:w-11/12 xl:mx-auto px-4 mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8 pt-16" id="about">
         <div className="mt-12 sm:mt-16 xl:mt-0">
           <h1 className="font-bold text-2xl md:text-5xl md:leading-snug text-gray-700 text-center xl:text-left">We help you in business growth by creating Apps, Web, Software, ERP and Analytics </h1>
           <button className="bg-red-400 mt-10 hover:bg-red-500 text-xl text-white font-bold py-5 px-20 rounded-lg block xl:inline mx-auto mt-8 tracking-wider">Start With Us</button>
@@ -150,7 +150,7 @@ export default function IndexPage() {
       </div>
       <div className=" xl:w-11/12 xl:mx-auto mx-auto px-4 my-8">
         <h2 className="font-bold text-3xl text-gray-700 text-center mb-4 tracking-wide">How we can Help you?</h2>
-        <div className="text-center text-xl text-gray-400 font-semibold mb-4">
+        <div className="text-center text-lg text-gray-400 font-semibold mb-10 tracking-wide">
           Move on Mobile & Web | Data Analysis | End to End Business Auomation
         </div>
         <p className="font-semibold text-xl text-center text-gray-700 mb-10 tracking-wide">
@@ -160,62 +160,62 @@ export default function IndexPage() {
         <div className="mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 pt-6 gap-32">
           <div className="flex flex-col items-center">
             <img src="img/automation.svg" alt="" className="w-24 opacity-80" />
-            <div className="text-lg mt-5">We Automate businesses</div>
+            <div className="text-lg mt-5 tracking-wide">We Automate businesses</div>
           </div>
           <div className="flex flex-col items-center text-center">
             <img src="img/digital-marketing.svg" alt="" className="w-24 opacity-80" />
-            <div className="text-lg mt-5">We move your business to online and help in sale by Digital Marketing</div>
+            <div className="text-lg mt-5 tracking-wide">We move your business to online and help in sale by Digital Marketing</div>
           </div>
           <div className="flex flex-col items-center text-center">
             <img src="img/analysis.svg" alt="" className="w-24 opacity-80" />
-            <div className="text-lg mt-5">We help management in decisions by analyzing data</div>
+            <div className="text-lg mt-5 tracking-wide">We help management in decisions by analyzing data</div>
           </div>
           <div className="flex flex-col items-center justify-content-center text-center">
             <img src="img/shopping.svg" alt="" className="w-24 opacity-80" />
-            <div className="text-lg mt-5">We provide solutions to expend on E-Commerce</div>
+            <div className="text-lg mt-5 tracking-wide">We provide solutions to expend on E-Commerce</div>
           </div>
         </div>
       </div>
       <div id="services" className="container xl:w-11/12 xl:mx-auto px-4 mx-auto">
         <h3 className="text-4xl text-gray-700 font-extrabold mb-10 text-center mt-32 mb-16">Services</h3>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:pb-10">
-          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
+          <a href="services/android-apps" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Android Apps</h1>
             <div className="flex justify-end w-full items-end">
               <img src="img/user-interface.svg" className="w-44 mt-8 opacity-90" alt="" />
             </div>
           </a>
-          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
+          <a href="services/ios-apps" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">iOS Apps</h1>
             <div className="flex justify-end w-full items-end">
               <img src="img/user-interface2.svg" className="w-44 mt-8" alt="" />
             </div>
           </a>
-          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
+          <a href="services/web-development" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Website Development</h1>
             <div className="flex justify-end w-full items-end">
               <img src="img/development.svg" className="w-44 mt-8" alt="" />
             </div>
           </a>
-          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
+          <a href="services/software-development" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Software Development</h1>
             <div className="flex justify-end w-full items-end">
               <img src="img/software.svg" className="w-44 mt-8 opacity-80" alt="" />
             </div>
           </a>
-          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
+          <a href="services/erp" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">ERP</h1>
             <div className="flex justify-end w-full items-end">
               <img src="img/management.svg" className="w-44 mt-8 opacity-70" alt="" />
             </div>
           </a>
-          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
+          <a href="services/automation" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Automation</h1>
             <div className="flex justify-end w-full items-end">
               <img src="img/gears.svg" className="w-44 mt-8" alt="" />
             </div>
           </a>
-          <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
+          <a href="services/data-analytics" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Data Analytics</h1>
             <div className="flex justify-end w-full items-end">
               <img src="img/statistics.svg" className="w-44 mt-8 opacity-70" alt="" />
@@ -230,43 +230,43 @@ export default function IndexPage() {
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/seo.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">SEO</p>
+            <p className="lg:text-xl ml-8 text-base font-medium leading-6 ml-4 text-purple-800">SEO</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/smm.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">SMM</p>
+            <p className="lg:text-xl ml-8 text-base font-medium leading-6 ml-4 text-purple-800">SMM</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/pay.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Pay Per Click</p>
+            <p className="lg:text-xl ml-8 text-base font-medium leading-6 ml-4 text-purple-800">Pay Per Click</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/content.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Content Marketing</p>
+            <p className="lg:text-xl ml-8 text-base font-medium leading-6 ml-4 text-purple-800">Content Marketing</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/poster.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Display Advertising</p>
+            <p className="lg:text-xl ml-8 text-base font-medium leading-6 ml-4 text-purple-800">Display Advertising</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/mail.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Email Marketing</p>
+            <p className="lg:text-xl ml-8 text-base font-medium leading-6 ml-4 text-purple-800">Email Marketing</p>
           </div>
         </div>
         <div className="rounded border-gray-300 h-24 my-4">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/big-data.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Digital Analytics</p>
+            <p className="lg:text-xl ml-8 text-base font-medium leading-6 ml-4 text-purple-800">Digital Analytics</p>
           </div>
         </div>
       </div>
@@ -346,25 +346,25 @@ export default function IndexPage() {
         <div className="rounded border-gray-300 my-4 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/credit-card.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Payment Gateway Integration</p>
+            <p className="lg:text-xl ml-8 text-base font-medium leading-6 ml-4 text-purple-800">Payment Gateway Integration</p>
           </div>
         </div>
         <div className="rounded border-gray-300 my-4 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/truck.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">Logistics Integration</p>
+            <p className="lg:text-xl ml-8 text-base font-medium leading-6 ml-4 text-purple-800">Logistics Integration</p>
           </div>
         </div>
         <div className="rounded border-gray-300 my-4 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/browser.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">B2B Wholesale Portal Integration</p>
+            <p className="lg:text-xl ml-8 text-base font-medium leading-6 ml-4 text-purple-800">B2B Wholesale Portal Integration</p>
           </div>
         </div>
         <div className="rounded border-gray-300 my-4 h-24">
           <div className="bg-purple-100 mt-4 rounded w-full p-8 flex items-center">
             <img src="img/online-shopping.svg" className="w-16" alt="" />
-            <p className="lg:text-2xl text-base font-medium leading-6 ml-4 text-purple-800">E-Commerce Website</p>
+            <p className="lg:text-xl ml-8 text-base font-medium leading-6 ml-4 text-purple-800">E-Commerce Website</p>
           </div>
         </div>
       </div>
