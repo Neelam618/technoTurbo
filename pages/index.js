@@ -7,7 +7,7 @@ export default function IndexPage() {
     <>
       <div className="bg-gray-200 h-full w-full">
         {/* Code block starts */}
-        <nav className="w-full mx-auto bg-white xl:block hidden">
+        <nav className="w-full mx-auto bg-white xl:block hidden fixed z-50">
           <div className="container px-6 mx-auto">
             <div className="flex justify-between items-center h-16">
               <div className="mr-10 flex items-center">
@@ -139,7 +139,7 @@ export default function IndexPage() {
         {/* Code block ends */}
       </div>
       {/* About */}
-      <div className="container px-4 mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8" id="about">
+      <div className="container px-4 mx-auto grid items-center xl:grid-cols-2 pt-6 gap-8 pt-24" id="about">
         <div className="mt-12 sm:mt-16 xl:mt-0">
           <h1 className="font-bold text-2xl md:text-5xl md:leading-snug text-gray-700 text-center xl:text-left">We help you in business growth by creating Apps, Web, Software, ERP and Analytics </h1>
           <button className="bg-red-400 mt-10 hover:bg-red-500 text-xl text-white font-bold py-5 px-20 rounded-lg block xl:inline mx-auto mt-8 tracking-wider">Start With Us</button>
@@ -177,7 +177,7 @@ export default function IndexPage() {
         </div>
       </div>
       <div id="services" className="container px-4 mx-auto">
-        <h3 className="text-4xl text-gray-700 font-extrabold mb-10 text-center my-44 mb-20">Services</h3>
+        <h3 className="text-4xl text-gray-700 font-extrabold mb-10 text-center mt-32 mb-16">Services</h3>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:pb-10">
           <a href="" className="bg-white px-6 py-6 relative text-color f-f-l shadow-lg">
             <h1 className="text-2xl font-bold w-9/12">Android Apps</h1>
@@ -368,7 +368,6 @@ export default function IndexPage() {
           </div>
         </div>
       </div>
-
 
       {/* Technologies */}
       <div id="technologies" className="pt-16">
