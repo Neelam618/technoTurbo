@@ -17,9 +17,9 @@ export default function IndexPage() {
               <ul className="xl:flex hidden items-center h-full">
                 <li className="font-semibold tracking-normal mx-6"><a href="#about">About</a></li>
                 <li class="dropdown">
-                  <button href="#services" className="relative font-semibold tracking-normal mx-6">Services
+                  <a href="#services" className="relative font-semibold tracking-normal mx-6">Services
                     <svg className="fill-current h-4 w-4 inline ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /> </svg>
-                  </button>
+                  </a>
                   <div className="dropdown-content border rounded bg-white w-44 hidden absolute z-1 px-4">
                     <a href="services/android-apps" className="block border-b p-2">Android Apps</a>
                     <a href="services/web-development" className="block border-b p-2">Website Development</a>
@@ -76,7 +76,7 @@ export default function IndexPage() {
                           <a href="" className="text-gray-800 xl:text-base md:text-xl text-base ml-3">About</a>
                         </li>
                       </a>
-                      <a id="services" className="cursor-pointer">
+                      <a className="cursor-pointer">
                         <li className="text-indigo-700 pt-8">
                           <div className="flex items-center justify-between">
                             <p className="text-indigo-700 xl:text-base md:text-xl text-base ml-3">Services</p>
@@ -560,33 +560,33 @@ export default function IndexPage() {
         <div>
           <ul className="flex mt-7">
             <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">About</li>
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#about">About</a></li>
             </a>
             <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 relative font-normal cursor-pointer hover:text-indigo-600">Services</li>
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 relative font-normal cursor-pointer hover:text-indigo-600"><a href="#services">Services</a></li>
             </a>
             <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Digital Marketing</li>
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#digitalMarketing">Digital Marketing</a></li>
             </a>
             <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">E-Commerce</li>
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#ecommerce">E-Commerce</a></li>
             </a>
             <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Technologies</li>
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#technologies">Technologies</a></li>
             </a>
             <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Careers</li>
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#careers">Careers</a></li>
             </a>
             <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Contact Us</li>
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#contact">Contact Us</a></li>
             </a>
             <a href="javascript:void(0)">
-              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600">Products</li>
+              <li className="lg:text-lg text-sm text-sm leading-5 lg:mr-10 mr-2 text-gray-700 flex flex-col items-end justify-end font-normal cursor-pointer hover:text-indigo-600"><a href="#products">Products</a></li>
             </a>
           </ul>
         </div>
         <div className="pt-16 flex lg:items-start items-center">
-          <p className="lg:text-base text-xs text-gray-500 text-white leading-5">&copy; 2021 Foodies, All rights reserved</p>
+          <p className="lg:text-base text-xs text-gray-500 text-white leading-5">&copy; 2021 TechnoTurbo, All rights reserved</p>
         </div>
       </div>
 
