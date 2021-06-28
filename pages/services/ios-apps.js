@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function AndroidApps() {
+export default function IosApps() {
     const [show, setShow] = useState(null);
     const [services, setServices] = useState(false);  
     return (
